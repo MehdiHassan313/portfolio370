@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-portfolio</title>
+    <link rel="icon" type="image/png" href="/images/icon.png">
+
+    <!-- Font Awesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- AOS Animation Library CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mobile Toggle Button -->
+    <div class="mobile-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Left Sidebar Navigation (Desktop) -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-profile">
+            <div class="author-img" style="background-image: url('images/pro.jpg');"></div>
+            <h1><a href="#">Mehdi Hassan</a></h1>
+            <span class="position"><a href="#">AI STUDENT / WEB DEVELOPER</a> IN GILGIT-BALTISTAN</span>
+        </div>
+
+        <nav class="sidebar-nav">
+            <ul>
+                <li class="active"><a href="#home"><i class="fas fa-home"></i> <span>HOME</span></a></li>
+                <li><a href="#about"><i class="far fa-user"></i> <span>ABOUT</span></a></li>
+                <li><a href="#services"><i class="fas fa-briefcase"></i> <span>SERVICES</span></a></li>
+                <li><a href="#skills"><i class="fas fa-cog"></i> <span>SKILLS</span></a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> <span>EDUCATION</span></a></li>
+                <li><a href="#experience"><i class="far fa-star"></i> <span>EXPERIENCE</span></a></li>
+                <li><a href="#work"><i class="fas fa-briefcase"></i> <span>WORK</span></a></li>
+                <li><a href="#blog"><i class="far fa-file-alt"></i> <span>BLOG</span></a></li>
+                <li><a href="#contact"><i class="far fa-envelope"></i> <span>CONTACT</span></a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="sidebar-divider"></div>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/mehdi_h_assan/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mehdi-hassan-b11922360/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://www.facebook.com/people/Mehdi-Hassan/100072296795660/" target="_blank"
+                    aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://github.com/MehdiHassan313" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
+            <p class="copyright-text">
+                Copyright 2026 &copy; by <a href="https://github.com/MehdiHassan313" target="_blank">Mehdi Hassan</a>
+            </p>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+        <!-- Hero Section / Slider -->
+        <section id="home" class="hero-section">
+            <div class="hero-slide active" style="background-image: url('images/profile.jpg');">
+
+                <div class="hero-overlay"></div>
+
+                <div class="hero-container" data-aos="fade-up">
+                    <div class="hero-greeting-box">
+                        <h1 class="hero-greeting">Hi!</h1>
+                        <span class="hero-line"></span>
+                    </div>
+
+                    <h1 class="hero-name">I'm <span class="highlight-name">Mehdi Hassan</span></h1>
+
+                    <h2 class="hero-subtitle">
+                        BS Artificial Intelligence Student & Web Developer
+                    </h2>
+
+                    <a href="cv/Hassan cv1.pdf" download="Hassan cv1.pdf" class="btn-cv" target="_blank">
+                        DOWNLOAD CV <i class="fas fa-download"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-heading" data-aos="fade-up">
+                <span class="subheading">ABOUT US</span>
+                <h2 class="heading">WHO AM I?</h2>
+            </div>
+
+            <div class="about-desc" data-aos="fade-up">
+                <p><strong>Hi I'm Mehdi Hassan</strong> a 5th-semester BS Artificial Intelligence
+                    student at Karakoram International University. I also have a 3-year Diploma in
+                    Computer Information Technology (CIT), which gave me a strong foundation in
+                    programming and computer applications.</p>
+                <p> I am interested in Artificial Intelligence, Machine Learning, and Web Development.
+                    I enjoy learning new technologies and building practical projects using HTML, CSS,
+                    JavaScript, Python, and other modern tools. I am continuously improving my
+                    technical, programming, and problem-solving skills through my studies and
+                    hands-on projects.</p>
+            </div>
+
+            <!-- 4 Icon Cards -->
+            <div class="services-cards">
+                <div class="card card-1" data-aos="fade-up">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Artificial Intelligence</h3>
+                </div>
+                <div class="card card-2" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web Design</h3>
+                </div>
+                <div class="card card-3" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-database"></i>
+                    <h3>Software</h3>
+                </div>
+                <div class="card card-4" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Application</h3>
+                </div>
+            </div>
+
+            <!-- Blue Callout Banner -->
+            <div class="hire-banner" data-aos="fade-up">
+                <h2>I am happy to let you know that 8+ projects have been done successfully!</h2>
+                <a href="#contact" class="btn-hire">Hire me</a>
+            </div>
+        </section>
+
+        <!-- Services / Expertise Section -->
+        <section id="services" class="section">
+            <div class="section-heading" data-aos="fade-up">
+                <span class="subheading">WHAT I DO?</span>
+                <h2 class="heading">HERE ARE SOME OF MY EXPERTISE</h2>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="exp-item border-1" data-aos="fade-up">
+                    <div class="exp-icon"><i class="fas fa-lightbulb"></i></div>
+                    <div class="exp-text">
+                        <h3>Innovative Ideas</h3>
+                        <p>I enjoy exploring new ideas and turning them into practical technology projects using
+                            creativity and problem-solving skills.</p>
+                    </div>
+                </div>
+                <div class="exp-item border-2" data-aos="fade-up" data-aos-delay="100">
+                    <div class="exp-icon"><i class="fas fa-database"></i></div>
+                    <div class="exp-text">
+                        <h3>Software</h3>
+                        <p>I work with programming and development tools to build useful and practical software
+                            projects.</p>
+                    </div>
+                </div>
+                <div class="exp-item border-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="exp-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="exp-text">
+                        <h3>Application</h3>
+                        <p>I am interested in developing applications that solve real-world problems and provide simple,
+                            useful solutions.</p>
+                    </div>
+                </div>
+                <div class="exp-item border-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="exp-icon"><i class="fas fa-layer-group"></i></div>
+                    <div class="exp-text">
+                        <h3>Artificial Intelligence</h3>
+                        <p>Learning and developing practical AI solutions using Artificial Intelligence, Machine
+                            Learning, and Deep Learning concepts.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Counter Bar -->
+        <section class="counter-section" id="counters">
+            <div class="counter-overlay"></div>
+            <div class="counter-container">
+                <div class="counter-item">
+                    <span class="number counter-val" data-target="309">0</span>
+                    <span class="label">CUPS OF COFFEE</span>
+                </div>
+                <div class="counter-item">
+                    <span class="number counter-val" data-target="12">0</span>
+                    <span class="label">PROJECTS</span>
+                </div>
+                <div class="counter-item">
+                    <span class="number counter-val" data-target="08">0</span>
+                    <span class="label">CLIENTS</span>
+                </div>
+                <div class="counter-item">
+                    <span class="number counter-val" data-target="01">0</span>
+                    <span class="label">PARTNERS</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-heading" data-aos="fade-up">
+                <span class="subheading">MY SPECIALTY</span>
+                <h2 class="heading">MY SKILLS</h2>
+            </div>
+
+            <p class="skills-lead" data-aos="fade-up">I am continuously developing my technical skills through
+                university studies and practical projects. My main areas of interest include Artificial
+                Intelligence, Python programming, Machine Learning, and Web Development.</p>
+
+            <div class="skills-grid" data-aos="fade-up">
+                <div class="skill-box">
+                    <h3>PYTHON <span class="val">75%</span></h3>
+                    <div class="progress-bar">
+                        <div class="fill color-1" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h3>ARTIFICIAL INTELLIGENCE <span class="val">60%</span></h3>
+                    <div class="progress-bar">
+                        <div class="fill color-2" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h3>HTML <span class="val">85%</span></h3>
+                    <div class="progress-bar">
+                        <div class="fill color-3" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h3>CSS3 <span class="val">90%</span></h3>
+                    <div class="progress-bar">
+                        <div class="fill color-4" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h3>JAVASCRIPT <span class="val">70%</span></h3>
+                    <div class="progress-bar">
+                        <div class="fill color-5" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h3>BOOTSTRAP <span class="val">60%</span></h3>
+                    <div class="progress-bar">
+                        <div class="fill color-6" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section Accordion -->
+        <section id="education" class="section">
+            <div class="section-heading" data-aos="fade-up">
+                <span class="subheading">EDUCATION</span>
+                <h2 class="heading">EDUCATION</h2>
+            </div>
+
+            <div class="accordion-container" data-aos="fade-up">
+                <!-- Card 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>BS Artificial Intelligence</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-inner">
+                            <p>
+                                Currently studying BS Artificial Intelligence at Karakoram International
+                                University. I am currently in the 5th semester, focusing on Artificial
+                                Intelligence, Machine Learning, programming, and related technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>Diploma in Computer Information Technology (CIT)</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-inner">
+                            <p>
+                                Completed a 3-year Diploma in Computer Information Technology (CIT)
+                                from Government College of Technology, Bahawalpur. The program provided
+                                a foundation in computer applications, programming, and information technology.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>Matriculation</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-inner">
+                            <p>
+                                Completed Matriculation in Science from The Sky Academy, Faizabad, Gilgit-Baltistan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>Areas of Interest</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-inner">
+                            <p>
+                                Interested in Artificial Intelligence, Machine Learning, Web Development,
+                                Python programming, and practical technology projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Timeline -->
+        <section id="experience" class="section">
+            <div class="section-heading" data-aos="fade-up">
+                <span class="subheading">EXPERIENCE</span>
+                <h2 class="heading">WORK EXPERIENCE</h2>
+                <p>
+                    Currently focused on my BS Artificial Intelligence studies and building
+                    practical projects to develop my technical and professional skills.
+                </p>
+            </div>
+
+            <div class="timeline-tree">
+                <div class="timeline-entry" data-aos="fade-up">
+                    <div class="icon-badge color-1"><i class="fas fa-pencil-alt"></i></div>
+                    <div class="entry-card">
+                        <h2>AI & Machine Learning Projects <span>2025–Present</span></h2>
+                        <p>Developing academic and personal projects in Artificial Intelligence and Machine
+                            Learning, including Dog vs Cat image classification with CNNs, an AI Medical Assistant
+                            diagnostic system, and intelligent conversational tools using Python.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-aos="fade-up">
+                    <div class="icon-badge color-2"><i class="fas fa-pencil-alt"></i></div>
+                    <div class="entry-card">
+                        <h2>Web Development Projects <span>2025-Present</span></h2>
+                        <p>Building responsive web applications including a School Management System, interactive
+                            portfolios, and dynamic platforms using HTML, CSS, JavaScript, and backend integrations.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-aos="fade-up">
+                    <div class="icon-badge color-3"><i class="fas fa-pencil-alt"></i></div>
+                    <div class="entry-card">
+                        <h2>Python Programming Projects <span>2024–Present</span></h2>
+                        <p>Developing Python programs and solving programming problems as part of academic
+                            coursework and personal practice. Applying programming concepts to practical
+                            projects.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-aos="fade-up">
+                    <div class="icon-badge color-4"><i class="fas fa-pencil-alt"></i></div>
+                    <div class="entry-card">
+                        <h2>Git & GitHub Projects <span>2025–Present</span></h2>
+                        <p>Using Git and GitHub to manage projects, create branches, make commits, collaborate
+                            with others, and maintain project repositories.</p>
+                    </div>
+                </div>
+
+                <!-- <div class="timeline-entry" data-aos="fade-up">
+                        <div class="icon-badge color-5"><i class="fas fa-pencil-alt"></i></div>
+                        <div class="entry-card">
+                            <h2>UI/UX Designer at Envato <span>2028-2030</span></h2>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                unorthographic life One day however a small line of blind text by the name of Lorem
+                                Ipsum
+                                decided to leave for the far World of Grammar.</p>
+                        </div>
+                    </div> -->
+            </div>
+        </section>
+
+        <!-- Recent Work Grid -->
+        <section id="work" class="section">
+            <div class="section-heading" data-aos="fade-up">
+                <span class="subheading">MY WORK</span>
+                <h2 class="heading">RECENT WORK</h2>
+            </div>
+
+            <div class="work-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">Artificial Intelligence</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            </div>
+
+            <div class="work-grid">
+
+                <!-- Project 01: Dog vs Cat Classification -->
+                <div class="work-item ml ai python" data-aos="fade-up">
+                    <div class="work-thumb" style="background-image: url('images/dog-cat-classification.jpg');">
+                        <div class="overlay-text">
+                            <span class="project-category">Machine Learning & CNN</span>
+                            <h3><a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
+                                    rel="noopener noreferrer">Dog vs Cat Classification</a></h3>
+                            <p class="project-desc">Deep learning model trained with CNNs to accurately classify images
+                                of dogs and cats with high accuracy.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>CNN</span>
+                                <span>TensorFlow</span>
+                                <span>Computer Vision</span>
+                            </div>
+                            <div class="icons">
+                                <a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
+                                    rel="noopener noreferrer" title="View Source on GitHub"
+                                    aria-label="GitHub Repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
+                                    rel="noopener noreferrer" title="Project Details" aria-label="Project Details">
+                                    <i class="fas fa-paw"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 02: School Management System -->
+                <div class="work-item web python" data-aos="fade-up" data-aos-delay="100">
+                    <div class="work-thumb" style="background-image: url('images/school-management-system.jpg');">
+                        <div class="overlay-text">
+                            <span class="project-category">Web Development & Database</span>
+                            <h3><a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
+                                    rel="noopener noreferrer">School Management System</a></h3>
+                            <p class="project-desc">Full-featured management platform for student enrollment, attendance
+                                records, course grading, and teacher portal.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Web App</span>
+                                <span>Database</span>
+                                <span>EdTech</span>
+                            </div>
+                            <div class="icons">
+                                <a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
+                                    rel="noopener noreferrer" title="View Source on GitHub"
+                                    aria-label="GitHub Repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
+                                    rel="noopener noreferrer" title="System Dashboard" aria-label="System Dashboard">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 03: AI Medical Assistant -->
+                <div class="work-item ai ml python" data-aos="fade-up" data-aos-delay="200">
+                    <div class="work-thumb" style="background-image: url('images/medical-assistant.jpg');">
+                        <div class="overlay-text">
+                            <span class="project-category">Artificial Intelligence & Healthcare</span>
+                            <h3><a href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
+                                    target="_blank" rel="noopener noreferrer">AI Medical Assistant</a></h3>
+                            <p class="project-desc">Intelligent clinical assistant for patient symptom analysis,
+                                diagnostic guidance, and healthcare vitals monitoring.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>AI / NLP</span>
+                                <span>Diagnostics</span>
+                                <span>Healthcare</span>
+                            </div>
+                            <div class="icons">
+                                <a href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
+                                    target="_blank" rel="noopener noreferrer" title="View Source on GitHub"
+                                    aria-label="GitHub Repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
+                                    target="_blank" rel="noopener noreferrer" title="Healthcare Assistant"
+                                    aria-label="Healthcare Assistant">
+                                    <i class="fas fa-user-md"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 04: Personal Portfolio -->
+                <div class="work-item web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="work-thumb" style="background-image: url('images/portfolio.jpg');">
+                        <div class="overlay-text">
+                            <span class="project-category">Frontend Web Development</span>
+                            <h3><a href="https://github.com/MehdiHassan313" target="_blank"
+                                    rel="noopener noreferrer">Personal Portfolio</a></h3>
+                            <p class="project-desc">Modern responsive portfolio website featuring interactive
+                                navigation, dynamic filtering, and custom blue theme.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
+                            </div>
+                            <div class="icons">
+                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
+                                    title="View Profile on GitHub" aria-label="GitHub Profile">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#home" title="Live Preview" aria-label="Live Preview">
+                                    <i class="fas fa-laptop-code"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 05: AI Chatbot System -->
+                <div class="work-item ai python" data-aos="fade-up" data-aos-delay="200">
+                    <div class="work-thumb" style="background-image: url('images/AI Chat Bot.png');">
+                        <div class="overlay-text">
+                            <span class="project-category">Artificial Intelligence & NLP</span>
+                            <h3><a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer">AI
+                                    Chatbot System</a></h3>
+                            <p class="project-desc">Conversational agent powered by natural language processing to
+                                automate queries and support workflows.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>NLP</span>
+                                <span>Bot API</span>
+                                <span>Automation</span>
+                            </div>
+                            <div class="icons">
+                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
+                                    title="View on GitHub" aria-label="GitHub Repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
+                                    title="Explore Chatbot" aria-label="Explore Chatbot">
+                                    <i class="fas fa-robot"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 06: E-Commerce Web Platform -->
+                <div class="work-item web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="work-thumb" style="background-image: url('images/E-Commers web.png');">
+                        <div class="overlay-text">
+                            <span class="project-category">Full-Stack Web Development</span>
+                            <h3><a href="https://github.com/MehdiHassan313" target="_blank"
+                                    rel="noopener noreferrer">E-Commerce Web Store</a></h3>
+                            <p class="project-desc">Complete e-commerce storefront with product catalogs, shopping cart,
+                                interactive checkout, and responsive design.</p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>E-Commerce</span>
+                                <span>UI/UX</span>
+                                <span>Web Store</span>
+                            </div>
+                            <div class="icons">
+                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
+                                    title="View on GitHub" aria-label="GitHub Repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
+                                    title="Store Preview" aria-label="Store Preview">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="load-more-wrap" data-aos="fade-up">
+                            <button class="btn-load-more">Load more <i class="fas fa-sync-alt"></i></button>
+                        </div> -->
+        </section>
+
+        <!-- Latest Articles Blog Section -->
+        <section id="blog" class="section">
+            <div class="section-heading" data-aos="fade-up">
+                <span class="subheading">LATEST ARTICLES</span>
+                <h2 class="heading">FROM THE BLOG</h2>
+            </div>
+
+            <div class="blog-grid">
+
+                <div class="blog-entry" data-aos="fade-up">
+
+                    <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html"
+                        class="blog-img" target="_blank" rel="noopener noreferrer"
+                        style="background-image: url('images/blog-1.jpg');">
+                    </a>
+
+                    <div class="blog-desc">
+
+                        <span class="tag">TECHNOLOGY</span>
+                        <span class="date">October 2024</span>
+
+                        <h3>
+                            <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html"
+                                target="_blank" rel="noopener noreferrer">
+                                Stairlifts to Aid Elderly and Improve Accessibility
+                            </a>
+                        </h3>
+
+                        <p>
+                            Discover how stairlifts can help elderly people move
+                            safely between floors, improve accessibility, and
+                            maintain independence in their homes.
+                        </p>
+
+                        <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html"
+                            target="_blank" rel="noopener noreferrer" class="read-more">
+                            Read article &rarr;
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Blog 2 -->
+                <div class="blog-entry" data-aos="fade-up" data-aos-delay="100">
+
+                    <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
+                        style="background-image: url('images/blog-2.jpg');">
+                    </a>
+
+                    <div class="blog-desc">
+                        <span class="tag">ARTIFICIAL INTELLIGENCE</span>
+                        <span class="date">Technology</span>
+
+                        <h3>
+                            <a href="https://techwithhassangb.blogspot.com/" target="_blank">
+                                Artificial Intelligence in Everyday Life
+                            </a>
+                        </h3>
+
+                        <p>
+                            Explore how Artificial Intelligence is changing everyday
+                            life through smart assistants, automation, and intelligent
+                            applications.
+                        </p>
+
+                        <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
+                            Read article &rarr;
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Blog 3 -->
+                <div class="blog-entry" data-aos="fade-up" data-aos-delay="200">
+
+                    <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
+                        style="background-image: url('images/blog-3.jpg');">
+                    </a>
+
+                    <div class="blog-desc">
+                        <span class="tag">WEB DEVELOPMENT</span>
+                        <span class="date">Web Technology</span>
+
+                        <h3>
+                            <a href="https://techwithhassangb.blogspot.com/" target="_blank">
+                                Getting Started with Web Development
+                            </a>
+                        </h3>
+
+                        <p>
+                            Learn about HTML, CSS, and JavaScript and how these
+                            technologies work together to build responsive websites.
+                        </p>
+
+                        <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
+                            Read article &rarr;
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Blog 4 -->
+                <div class="blog-entry" data-aos="fade-up" data-aos-delay="300">
+
+                    <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
+                        style="background-image: url('images/blog-4.jpg');">
+                    </a>
+
+                    <div class="blog-desc">
+                        <span class="tag">MACHINE LEARNING</span>
+                        <span class="date">Artificial Intelligence</span>
+
+                        <h3>
+                            <a href="https://techwithhassangb.blogspot.com/" target="_blank">
+                                Understanding Machine Learning
+                            </a>
+                        </h3>
+
+                        <p>
+                            Discover how machines learn from data, recognize patterns,
+                            and make predictions using Machine Learning techniques.
+                        </p>
+
+                        <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
+                            Read article &rarr;
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-heading" data-aos="fade-up">
+                <span class="subheading">GET IN TOUCH</span>
+                <h2 class="heading">CONTACT</h2>
+            </div>
+
+            <div class="contact-row">
+
+                <div class="contact-info" data-aos="fade-up">
+
+                    <!-- Email -->
+                    <div class="c-box">
+                        <div class="c-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p>
+                            <a href="mailto:mehdi313hassan@gmail.com">
+                                mehdi313hassan@gmail.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="c-box">
+                        <div class="c-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p>
+                            Chilmish, Gilgit-Baltistan, Pakistan
+                        </p>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="c-box">
+                        <div class="c-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p>
+                            <a href="tel:+923554342070">
+                                +92 355 4342070
+                            </a>
+                        </p>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div class="c-box">
+                        <div class="c-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <p>
+                            <a href="https://www.linkedin.com/in/mehdi-hassan-b11922360/" target="_blank">
+                                LinkedIn
+                            </a>
+                        </p>
+                    </div>
+
+                    <!-- Instagram -->
+                    <div class="c-box">
+                        <div class="c-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <p>
+                            <a href="https://www.instagram.com/mehdi_h_assan/" target="_blank">
+                                Instagram
+                            </a>
+                        </p>
+                    </div>
+
+                    <!-- Facebook -->
+                    <div class="c-box">
+                        <div class="c-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <p>
+                            <a href="https://www.facebook.com/people/Mehdi-Hassan/100072296795660/" target="_blank">
+                                Facebook
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form" data-aos="fade-up" data-aos-delay="100">
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" id="access_key"
+                            value="2356edc1-2fdf-4c97-aa35-9f2dd0539587">
+                        <input type="hidden" name="from_name" value="Portfolio Website Visitor">
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+                        <input type="text" name="name" class="form-control" placeholder="Name" required>
+
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+
+                        <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message"
+                            required></textarea>
+
+                        <button type="submit" class="btn-send" id="btn-submit">
+                            <span>Send Message</span>
+                        </button>
+
+                        <div id="form-status" class="form-status" style="display: none;"></div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- AOS Animation Library JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Main Script -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
