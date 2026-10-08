@@ -1460,26 +1460,31 @@
     background: #ffffff;
   }
 
-  @media (max-width: 480px) {
-    #pva-window {
-      width: 100vw;
-      max-width: 100vw;
-      height: calc(100vh - 80px);
-      bottom: 0;
-      right: 0;
-      border-radius: 20px 20px 0 0;
-    }
-
-    #pva-launcher {
-      bottom: 16px;
-      right: 16px;
-    }
+  
+@media (max-width: 480px) {
+  #pva-window {
+    width: 100vw;
+    max-width: 100vw;
+    height: calc(100vh - 80px);
+    height: calc(100dvh - 80px);
+    max-height: none;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px 20px 0 0;
   }
-#pva-launcher, #pva-launcher *, #pva-window, #pva-window * {
-  box-sizing: border-box;
-}
-#pva-window button, #pva-window input {
-  font-family: inherit;
+
+  #pva-launcher {
+    bottom: 16px;
+    right: 16px;
+  }
+
+  #pva-launcher.pva-launcher-hidden {
+    display: none;
+  }
+
+  .pva-text-input {
+    font-size: 16px;
+  }
 }
 
 
@@ -1512,6 +1517,7 @@
 
     window.pvaToggle = function (force) {
       const open = force !== undefined ? force : !win.classList.contains('pva-open');
+      document.getElementById('pva-launcher').classList.toggle('pva-launcher-hidden', open);
       if (open) {
         win.classList.add('pva-open');
         input.focus();
