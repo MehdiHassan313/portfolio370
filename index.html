@@ -1580,9 +1580,20 @@
     }
 
     const synth = window.speechSynthesis;
+    // Mobile par pehle tap par awaaz "unlock" karta hai
+function unlockSpeech() {
+  if (!synth) return;
+  const u = new SpeechSynthesisUtterance(' ');
+  u.volume = 0;
+  synth.speak(u);
+}
+['click', 'touchend'].forEach(ev =>
+  document.addEventListener(ev, unlockSpeech, { once: true })
+);
     function speak(text) {
       if (!synth || isMuted || !text) return;
       synth.cancel();
+if (synth.paused) synth.resume();
       const clean = text.replace(/[*#_~`>]/g, '').trim();
       if (!clean) return;
 
