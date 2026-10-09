@@ -2,400 +2,399 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-portfolio</title>
-    <link rel="icon" type="image/png" href="/images/icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-portfolio</title>
+  <link rel="icon" type="image/png" href="/images/icon.png">
 
-    <!-- Font Awesome & Google Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
-        rel="stylesheet">
-    <!-- AOS Animation Library CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- AOS Animation Library CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Mobile Toggle Button -->
-    <div class="mobile-toggle" id="menu-toggle">
-        <i class="fas fa-bars"></i>
+  <!-- Mobile Toggle Button -->
+  <div class="mobile-toggle" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <!-- Left Sidebar Navigation (Desktop) -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-profile">
+      <div class="author-img" style="background-image: url('images/pro.jpg');"></div>
+      <h1><a href="#">Mehdi Hassan</a></h1>
+      <span class="position"><a href="#">AI STUDENT / WEB DEVELOPER</a> IN GILGIT-BALTISTAN</span>
     </div>
 
-    <!-- Left Sidebar Navigation (Desktop) -->
-    <aside class="sidebar" id="sidebar">
-        <div class="sidebar-profile">
-            <div class="author-img" style="background-image: url('images/pro.jpg');"></div>
-            <h1><a href="#">Mehdi Hassan</a></h1>
-            <span class="position"><a href="#">AI STUDENT / WEB DEVELOPER</a> IN GILGIT-BALTISTAN</span>
+    <nav class="sidebar-nav">
+      <ul>
+        <li class="active"><a href="#home"><i class="fas fa-home"></i> <span>HOME</span></a></li>
+        <li><a href="#about"><i class="far fa-user"></i> <span>ABOUT</span></a></li>
+        <li><a href="#services"><i class="fas fa-briefcase"></i> <span>SERVICES</span></a></li>
+        <li><a href="#skills"><i class="fas fa-cog"></i> <span>SKILLS</span></a></li>
+        <li><a href="#education"><i class="fas fa-graduation-cap"></i> <span>EDUCATION</span></a></li>
+        <li><a href="#experience"><i class="far fa-star"></i> <span>EXPERIENCE</span></a></li>
+        <li><a href="#work"><i class="fas fa-briefcase"></i> <span>WORK</span></a></li>
+        <li><a href="#blog"><i class="far fa-file-alt"></i> <span>BLOG</span></a></li>
+        <li><a href="#contact"><i class="far fa-envelope"></i> <span>CONTACT</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-divider"></div>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/mehdi_h_assan/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/mehdi-hassan-b11922360/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://www.facebook.com/people/Mehdi-Hassan/100072296795660/" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://github.com/MehdiHassan313" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <p class="copyright-text">
+        Copyright 2026 &copy; by <a href="https://github.com/MehdiHassan313" target="_blank">Mehdi Hassan</a>
+      </p>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+
+    <!-- Hero Section / Slider -->
+    <section id="home" class="hero-section">
+      <div class="hero-slide active" style="background-image: url('images/profile.jpg');">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-container" data-aos="fade-up">
+          <div class="hero-greeting-box">
+            <h1 class="hero-greeting">Hi!</h1>
+            <span class="hero-line"></span>
+          </div>
+
+          <h1 class="hero-name">I'm <span class="highlight-name">Mehdi Hassan</span></h1>
+
+          <h2 class="hero-subtitle">
+            BS Artificial Intelligence Student & Web Developer
+          </h2>
+
+          <a href="cv/Hassan cv1.pdf" download="Hassan cv1.pdf" class="btn-cv" target="_blank">
+            DOWNLOAD CV <i class="fas fa-download"></i>
+          </a>
         </div>
 
-        <nav class="sidebar-nav">
-            <ul>
-                <li class="active"><a href="#home"><i class="fas fa-home"></i> <span>HOME</span></a></li>
-                <li><a href="#about"><i class="far fa-user"></i> <span>ABOUT</span></a></li>
-                <li><a href="#services"><i class="fas fa-briefcase"></i> <span>SERVICES</span></a></li>
-                <li><a href="#skills"><i class="fas fa-cog"></i> <span>SKILLS</span></a></li>
-                <li><a href="#education"><i class="fas fa-graduation-cap"></i> <span>EDUCATION</span></a></li>
-                <li><a href="#experience"><i class="far fa-star"></i> <span>EXPERIENCE</span></a></li>
-                <li><a href="#work"><i class="fas fa-briefcase"></i> <span>WORK</span></a></li>
-                <li><a href="#blog"><i class="far fa-file-alt"></i> <span>BLOG</span></a></li>
-                <li><a href="#contact"><i class="far fa-envelope"></i> <span>CONTACT</span></a></li>
-            </ul>
-        </nav>
+      </div>
+    </section>
 
-        <div class="sidebar-footer">
-            <div class="sidebar-divider"></div>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="subheading">ABOUT US</span>
+        <h2 class="heading">WHO AM I?</h2>
+      </div>
 
-            <div class="social-links">
-                <a href="https://www.instagram.com/mehdi_h_assan/" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
+      <div class="about-desc" data-aos="fade-up">
+        <p><strong>Hi I'm Mehdi Hassan</strong> a 5th-semester BS Artificial Intelligence
+          student at Karakoram International University. I also have a 3-year Diploma in
+          Computer Information Technology (CIT), which gave me a strong foundation in
+          programming and computer applications.</p>
+        <p> I am interested in Artificial Intelligence, Machine Learning, and Web Development.
+          I enjoy learning new technologies and building practical projects using HTML, CSS,
+          JavaScript, Python, and other modern tools. I am continuously improving my
+          technical, programming, and problem-solving skills through my studies and
+          hands-on projects.</p>
+      </div>
 
-                <a href="https://www.linkedin.com/in/mehdi-hassan-b11922360/" target="_blank" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-
-                <a href="https://www.facebook.com/people/Mehdi-Hassan/100072296795660/" target="_blank"
-                    aria-label="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-
-                <a href="https://github.com/MehdiHassan313" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-
-            <p class="copyright-text">
-                Copyright 2026 &copy; by <a href="https://github.com/MehdiHassan313" target="_blank">Mehdi Hassan</a>
-            </p>
+      <!-- 4 Icon Cards -->
+      <div class="services-cards">
+        <div class="card card-1" data-aos="fade-up">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Artificial Intelligence</h3>
         </div>
-    </aside>
+        <div class="card card-2" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-globe"></i>
+          <h3>Web Design</h3>
+        </div>
+        <div class="card card-3" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-database"></i>
+          <h3>Software</h3>
+        </div>
+        <div class="card card-4" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Application</h3>
+        </div>
+      </div>
 
-    <!-- Main Content Area -->
-    <main class="main-content">
+      <!-- Blue Callout Banner -->
+      <div class="hire-banner" data-aos="fade-up">
+        <h2>I am happy to let you know that 8+ projects have been done successfully!</h2>
+        <a href="#contact" class="btn-hire">Hire me</a>
+      </div>
+    </section>
 
-        <!-- Hero Section / Slider -->
-        <section id="home" class="hero-section">
-            <div class="hero-slide active" style="background-image: url('images/profile.jpg');">
+    <!-- Services / Expertise Section -->
+    <section id="services" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="subheading">WHAT I DO?</span>
+        <h2 class="heading">HERE ARE SOME OF MY EXPERTISE</h2>
+      </div>
 
-                <div class="hero-overlay"></div>
+      <div class="expertise-grid">
+        <div class="exp-item border-1" data-aos="fade-up">
+          <div class="exp-icon"><i class="fas fa-lightbulb"></i></div>
+          <div class="exp-text">
+            <h3>Innovative Ideas</h3>
+            <p>I enjoy exploring new ideas and turning them into practical technology projects using
+              creativity and problem-solving skills.</p>
+          </div>
+        </div>
+        <div class="exp-item border-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="exp-icon"><i class="fas fa-database"></i></div>
+          <div class="exp-text">
+            <h3>Software</h3>
+            <p>I work with programming and development tools to build useful and practical software
+              projects.</p>
+          </div>
+        </div>
+        <div class="exp-item border-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="exp-icon"><i class="fas fa-mobile-alt"></i></div>
+          <div class="exp-text">
+            <h3>Application</h3>
+            <p>I am interested in developing applications that solve real-world problems and provide simple,
+              useful solutions.</p>
+          </div>
+        </div>
+        <div class="exp-item border-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="exp-icon"><i class="fas fa-layer-group"></i></div>
+          <div class="exp-text">
+            <h3>Artificial Intelligence</h3>
+            <p>Learning and developing practical AI solutions using Artificial Intelligence, Machine
+              Learning, and Deep Learning concepts.</p>
+          </div>
+        </div>
 
-                <div class="hero-container" data-aos="fade-up">
-                    <div class="hero-greeting-box">
-                        <h1 class="hero-greeting">Hi!</h1>
-                        <span class="hero-line"></span>
-                    </div>
+      </div>
+    </section>
 
-                    <h1 class="hero-name">I'm <span class="highlight-name">Mehdi Hassan</span></h1>
+    <!-- Counter Bar -->
+    <section class="counter-section" id="counters">
+      <div class="counter-overlay"></div>
+      <div class="counter-container">
+        <div class="counter-item">
+          <span class="number counter-val" data-target="309">0</span>
+          <span class="label">CUPS OF COFFEE</span>
+        </div>
+        <div class="counter-item">
+          <span class="number counter-val" data-target="12">0</span>
+          <span class="label">PROJECTS</span>
+        </div>
+        <div class="counter-item">
+          <span class="number counter-val" data-target="08">0</span>
+          <span class="label">CLIENTS</span>
+        </div>
+        <div class="counter-item">
+          <span class="number counter-val" data-target="01">0</span>
+          <span class="label">PARTNERS</span>
+        </div>
+      </div>
+    </section>
 
-                    <h2 class="hero-subtitle">
-                        BS Artificial Intelligence Student & Web Developer
-                    </h2>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="subheading">MY SPECIALTY</span>
+        <h2 class="heading">MY SKILLS</h2>
+      </div>
 
-                    <a href="cv/Hassan cv1.pdf" download="Hassan cv1.pdf" class="btn-cv" target="_blank">
-                        DOWNLOAD CV <i class="fas fa-download"></i>
-                    </a>
-                </div>
+      <p class="skills-lead" data-aos="fade-up">I am continuously developing my technical skills through
+        university studies and practical projects. My main areas of interest include Artificial
+        Intelligence, Python programming, Machine Learning, and Web Development.</p>
 
+      <div class="skills-grid" data-aos="fade-up">
+        <div class="skill-box">
+          <h3>PYTHON <span class="val">75%</span></h3>
+          <div class="progress-bar">
+            <div class="fill color-1" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h3>ARTIFICIAL INTELLIGENCE <span class="val">60%</span></h3>
+          <div class="progress-bar">
+            <div class="fill color-2" style="width: 60%;"></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h3>HTML <span class="val">85%</span></h3>
+          <div class="progress-bar">
+            <div class="fill color-3" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h3>CSS3 <span class="val">90%</span></h3>
+          <div class="progress-bar">
+            <div class="fill color-4" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h3>JAVASCRIPT <span class="val">70%</span></h3>
+          <div class="progress-bar">
+            <div class="fill color-5" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h3>BOOTSTRAP <span class="val">60%</span></h3>
+          <div class="progress-bar">
+            <div class="fill color-6" style="width: 60%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section Accordion -->
+    <section id="education" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="subheading">EDUCATION</span>
+        <h2 class="heading">EDUCATION</h2>
+      </div>
+
+      <div class="accordion-container" data-aos="fade-up">
+        <!-- Card 1 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            <span>BS Artificial Intelligence</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-inner">
+              <p>
+                Currently studying BS Artificial Intelligence at Karakoram International
+                University. I am currently in the 5th semester, focusing on Artificial
+                Intelligence, Machine Learning, programming, and related technologies.
+              </p>
             </div>
-        </section>
+          </div>
+        </div>
 
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="section-heading" data-aos="fade-up">
-                <span class="subheading">ABOUT US</span>
-                <h2 class="heading">WHO AM I?</h2>
+        <!-- Card 2 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            <span>Diploma in Computer Information Technology (CIT)</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-inner">
+              <p>
+                Completed a 3-year Diploma in Computer Information Technology (CIT)
+                from Government College of Technology, Bahawalpur. The program provided
+                a foundation in computer applications, programming, and information technology.
+              </p>
             </div>
+          </div>
+        </div>
 
-            <div class="about-desc" data-aos="fade-up">
-                <p><strong>Hi I'm Mehdi Hassan</strong> a 5th-semester BS Artificial Intelligence
-                    student at Karakoram International University. I also have a 3-year Diploma in
-                    Computer Information Technology (CIT), which gave me a strong foundation in
-                    programming and computer applications.</p>
-                <p> I am interested in Artificial Intelligence, Machine Learning, and Web Development.
-                    I enjoy learning new technologies and building practical projects using HTML, CSS,
-                    JavaScript, Python, and other modern tools. I am continuously improving my
-                    technical, programming, and problem-solving skills through my studies and
-                    hands-on projects.</p>
+        <!-- Card 3 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            <span>Matriculation</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-inner">
+              <p>
+                Completed Matriculation in Science from The Sky Academy, Faizabad, Gilgit-Baltistan.
+              </p>
             </div>
+          </div>
+        </div>
 
-            <!-- 4 Icon Cards -->
-            <div class="services-cards">
-                <div class="card card-1" data-aos="fade-up">
-                    <i class="fas fa-lightbulb"></i>
-                    <h3>Artificial Intelligence</h3>
-                </div>
-                <div class="card card-2" data-aos="fade-up" data-aos-delay="100">
-                    <i class="fas fa-globe"></i>
-                    <h3>Web Design</h3>
-                </div>
-                <div class="card card-3" data-aos="fade-up" data-aos-delay="200">
-                    <i class="fas fa-database"></i>
-                    <h3>Software</h3>
-                </div>
-                <div class="card card-4" data-aos="fade-up" data-aos-delay="300">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Application</h3>
-                </div>
+        <!-- Card 4 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            <span>Areas of Interest</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-inner">
+              <p>
+                Interested in Artificial Intelligence, Machine Learning, Web Development,
+                Python programming, and practical technology projects.
+              </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <!-- Blue Callout Banner -->
-            <div class="hire-banner" data-aos="fade-up">
-                <h2>I am happy to let you know that 8+ projects have been done successfully!</h2>
-                <a href="#contact" class="btn-hire">Hire me</a>
-            </div>
-        </section>
+    <!-- Work Experience Timeline -->
+    <section id="experience" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="subheading">EXPERIENCE</span>
+        <h2 class="heading">WORK EXPERIENCE</h2>
+        <p>
+          Currently focused on my BS Artificial Intelligence studies and building
+          practical projects to develop my technical and professional skills.
+        </p>
+      </div>
 
-        <!-- Services / Expertise Section -->
-        <section id="services" class="section">
-            <div class="section-heading" data-aos="fade-up">
-                <span class="subheading">WHAT I DO?</span>
-                <h2 class="heading">HERE ARE SOME OF MY EXPERTISE</h2>
-            </div>
+      <div class="timeline-tree">
+        <div class="timeline-entry" data-aos="fade-up">
+          <div class="icon-badge color-1"><i class="fas fa-pencil-alt"></i></div>
+          <div class="entry-card">
+            <h2>AI & Machine Learning Projects <span>2025–Present</span></h2>
+            <p>Developing academic and personal projects in Artificial Intelligence and Machine
+              Learning, including Dog vs Cat image classification with CNNs, an AI Medical Assistant
+              diagnostic system, and intelligent conversational tools using Python.</p>
+          </div>
+        </div>
 
-            <div class="expertise-grid">
-                <div class="exp-item border-1" data-aos="fade-up">
-                    <div class="exp-icon"><i class="fas fa-lightbulb"></i></div>
-                    <div class="exp-text">
-                        <h3>Innovative Ideas</h3>
-                        <p>I enjoy exploring new ideas and turning them into practical technology projects using
-                            creativity and problem-solving skills.</p>
-                    </div>
-                </div>
-                <div class="exp-item border-2" data-aos="fade-up" data-aos-delay="100">
-                    <div class="exp-icon"><i class="fas fa-database"></i></div>
-                    <div class="exp-text">
-                        <h3>Software</h3>
-                        <p>I work with programming and development tools to build useful and practical software
-                            projects.</p>
-                    </div>
-                </div>
-                <div class="exp-item border-3" data-aos="fade-up" data-aos-delay="200">
-                    <div class="exp-icon"><i class="fas fa-mobile-alt"></i></div>
-                    <div class="exp-text">
-                        <h3>Application</h3>
-                        <p>I am interested in developing applications that solve real-world problems and provide simple,
-                            useful solutions.</p>
-                    </div>
-                </div>
-                <div class="exp-item border-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="exp-icon"><i class="fas fa-layer-group"></i></div>
-                    <div class="exp-text">
-                        <h3>Artificial Intelligence</h3>
-                        <p>Learning and developing practical AI solutions using Artificial Intelligence, Machine
-                            Learning, and Deep Learning concepts.</p>
-                    </div>
-                </div>
+        <div class="timeline-entry" data-aos="fade-up">
+          <div class="icon-badge color-2"><i class="fas fa-pencil-alt"></i></div>
+          <div class="entry-card">
+            <h2>Web Development Projects <span>2025-Present</span></h2>
+            <p>Building responsive web applications including a School Management System, interactive
+              portfolios, and dynamic platforms using HTML, CSS, JavaScript, and backend integrations.</p>
+          </div>
+        </div>
 
-            </div>
-        </section>
+        <div class="timeline-entry" data-aos="fade-up">
+          <div class="icon-badge color-3"><i class="fas fa-pencil-alt"></i></div>
+          <div class="entry-card">
+            <h2>Python Programming Projects <span>2024–Present</span></h2>
+            <p>Developing Python programs and solving programming problems as part of academic
+              coursework and personal practice. Applying programming concepts to practical
+              projects.</p>
+          </div>
+        </div>
 
-        <!-- Counter Bar -->
-        <section class="counter-section" id="counters">
-            <div class="counter-overlay"></div>
-            <div class="counter-container">
-                <div class="counter-item">
-                    <span class="number counter-val" data-target="309">0</span>
-                    <span class="label">CUPS OF COFFEE</span>
-                </div>
-                <div class="counter-item">
-                    <span class="number counter-val" data-target="12">0</span>
-                    <span class="label">PROJECTS</span>
-                </div>
-                <div class="counter-item">
-                    <span class="number counter-val" data-target="08">0</span>
-                    <span class="label">CLIENTS</span>
-                </div>
-                <div class="counter-item">
-                    <span class="number counter-val" data-target="01">0</span>
-                    <span class="label">PARTNERS</span>
-                </div>
-            </div>
-        </section>
+        <div class="timeline-entry" data-aos="fade-up">
+          <div class="icon-badge color-4"><i class="fas fa-pencil-alt"></i></div>
+          <div class="entry-card">
+            <h2>Git & GitHub Projects <span>2025–Present</span></h2>
+            <p>Using Git and GitHub to manage projects, create branches, make commits, collaborate
+              with others, and maintain project repositories.</p>
+          </div>
+        </div>
 
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <div class="section-heading" data-aos="fade-up">
-                <span class="subheading">MY SPECIALTY</span>
-                <h2 class="heading">MY SKILLS</h2>
-            </div>
-
-            <p class="skills-lead" data-aos="fade-up">I am continuously developing my technical skills through
-                university studies and practical projects. My main areas of interest include Artificial
-                Intelligence, Python programming, Machine Learning, and Web Development.</p>
-
-            <div class="skills-grid" data-aos="fade-up">
-                <div class="skill-box">
-                    <h3>PYTHON <span class="val">75%</span></h3>
-                    <div class="progress-bar">
-                        <div class="fill color-1" style="width: 75%;"></div>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <h3>ARTIFICIAL INTELLIGENCE <span class="val">60%</span></h3>
-                    <div class="progress-bar">
-                        <div class="fill color-2" style="width: 60%;"></div>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <h3>HTML <span class="val">85%</span></h3>
-                    <div class="progress-bar">
-                        <div class="fill color-3" style="width: 85%;"></div>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <h3>CSS3 <span class="val">90%</span></h3>
-                    <div class="progress-bar">
-                        <div class="fill color-4" style="width: 90%;"></div>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <h3>JAVASCRIPT <span class="val">70%</span></h3>
-                    <div class="progress-bar">
-                        <div class="fill color-5" style="width: 70%;"></div>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <h3>BOOTSTRAP <span class="val">60%</span></h3>
-                    <div class="progress-bar">
-                        <div class="fill color-6" style="width: 60%;"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Education Section Accordion -->
-        <section id="education" class="section">
-            <div class="section-heading" data-aos="fade-up">
-                <span class="subheading">EDUCATION</span>
-                <h2 class="heading">EDUCATION</h2>
-            </div>
-
-            <div class="accordion-container" data-aos="fade-up">
-                <!-- Card 1 -->
-                <div class="accordion-item">
-                    <button class="accordion-header" type="button">
-                        <span>BS Artificial Intelligence</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                    <div class="accordion-body">
-                        <div class="accordion-inner">
-                            <p>
-                                Currently studying BS Artificial Intelligence at Karakoram International
-                                University. I am currently in the 5th semester, focusing on Artificial
-                                Intelligence, Machine Learning, programming, and related technologies.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="accordion-item">
-                    <button class="accordion-header" type="button">
-                        <span>Diploma in Computer Information Technology (CIT)</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                    <div class="accordion-body">
-                        <div class="accordion-inner">
-                            <p>
-                                Completed a 3-year Diploma in Computer Information Technology (CIT)
-                                from Government College of Technology, Bahawalpur. The program provided
-                                a foundation in computer applications, programming, and information technology.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="accordion-item">
-                    <button class="accordion-header" type="button">
-                        <span>Matriculation</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                    <div class="accordion-body">
-                        <div class="accordion-inner">
-                            <p>
-                                Completed Matriculation in Science from The Sky Academy, Faizabad, Gilgit-Baltistan.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="accordion-item">
-                    <button class="accordion-header" type="button">
-                        <span>Areas of Interest</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                    <div class="accordion-body">
-                        <div class="accordion-inner">
-                            <p>
-                                Interested in Artificial Intelligence, Machine Learning, Web Development,
-                                Python programming, and practical technology projects.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Work Experience Timeline -->
-        <section id="experience" class="section">
-            <div class="section-heading" data-aos="fade-up">
-                <span class="subheading">EXPERIENCE</span>
-                <h2 class="heading">WORK EXPERIENCE</h2>
-                <p>
-                    Currently focused on my BS Artificial Intelligence studies and building
-                    practical projects to develop my technical and professional skills.
-                </p>
-            </div>
-
-            <div class="timeline-tree">
-                <div class="timeline-entry" data-aos="fade-up">
-                    <div class="icon-badge color-1"><i class="fas fa-pencil-alt"></i></div>
-                    <div class="entry-card">
-                        <h2>AI & Machine Learning Projects <span>2025–Present</span></h2>
-                        <p>Developing academic and personal projects in Artificial Intelligence and Machine
-                            Learning, including Dog vs Cat image classification with CNNs, an AI Medical Assistant
-                            diagnostic system, and intelligent conversational tools using Python.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-entry" data-aos="fade-up">
-                    <div class="icon-badge color-2"><i class="fas fa-pencil-alt"></i></div>
-                    <div class="entry-card">
-                        <h2>Web Development Projects <span>2025-Present</span></h2>
-                        <p>Building responsive web applications including a School Management System, interactive
-                            portfolios, and dynamic platforms using HTML, CSS, JavaScript, and backend integrations.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-entry" data-aos="fade-up">
-                    <div class="icon-badge color-3"><i class="fas fa-pencil-alt"></i></div>
-                    <div class="entry-card">
-                        <h2>Python Programming Projects <span>2024–Present</span></h2>
-                        <p>Developing Python programs and solving programming problems as part of academic
-                            coursework and personal practice. Applying programming concepts to practical
-                            projects.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-entry" data-aos="fade-up">
-                    <div class="icon-badge color-4"><i class="fas fa-pencil-alt"></i></div>
-                    <div class="entry-card">
-                        <h2>Git & GitHub Projects <span>2025–Present</span></h2>
-                        <p>Using Git and GitHub to manage projects, create branches, make commits, collaborate
-                            with others, and maintain project repositories.</p>
-                    </div>
-                </div>
-
-                <!-- <div class="timeline-entry" data-aos="fade-up">
+        <!-- <div class="timeline-entry" data-aos="fade-up">
                         <div class="icon-badge color-5"><i class="fas fa-pencil-alt"></i></div>
                         <div class="entry-card">
                             <h2>UI/UX Designer at Envato <span>2028-2030</span></h2>
@@ -405,1361 +404,1357 @@
                                 decided to leave for the far World of Grammar.</p>
                         </div>
                     </div> -->
+      </div>
+    </section>
+
+    <!-- Recent Work Grid -->
+    <section id="work" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="subheading">MY WORK</span>
+        <h2 class="heading">RECENT WORK</h2>
+      </div>
+
+      <div class="work-filters" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">Artificial Intelligence</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="ml">Machine Learning</button>
+      </div>
+
+      <div class="work-grid">
+
+        <!-- Project 01: Dog vs Cat Classification -->
+        <div class="work-item ml ai python" data-aos="fade-up">
+          <div class="work-thumb" style="background-image: url('images/dog-cat-classification.jpg');">
+            <div class="overlay-text">
+              <span class="project-category">Machine Learning & CNN</span>
+              <h3><a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
+                  rel="noopener noreferrer">Dog vs Cat Classification</a></h3>
+              <p class="project-desc">Deep learning model trained with CNNs to accurately classify images
+                of dogs and cats with high accuracy.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>CNN</span>
+                <span>TensorFlow</span>
+                <span>Computer Vision</span>
+              </div>
+              <div class="icons">
+                <a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
+                  rel="noopener noreferrer" title="View Source on GitHub" aria-label="GitHub Repository">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
+                  rel="noopener noreferrer" title="Project Details" aria-label="Project Details">
+                  <i class="fas fa-paw"></i>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
 
-        <!-- Recent Work Grid -->
-        <section id="work" class="section">
-            <div class="section-heading" data-aos="fade-up">
-                <span class="subheading">MY WORK</span>
-                <h2 class="heading">RECENT WORK</h2>
+        <!-- Project 02: School Management System -->
+        <div class="work-item web python" data-aos="fade-up" data-aos-delay="100">
+          <div class="work-thumb" style="background-image: url('images/school-management-system.jpg');">
+            <div class="overlay-text">
+              <span class="project-category">Web Development & Database</span>
+              <h3><a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
+                  rel="noopener noreferrer">School Management System</a></h3>
+              <p class="project-desc">Full-featured management platform for student enrollment, attendance
+                records, course grading, and teacher portal.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Web App</span>
+                <span>Database</span>
+                <span>EdTech</span>
+              </div>
+              <div class="icons">
+                <a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
+                  rel="noopener noreferrer" title="View Source on GitHub" aria-label="GitHub Repository">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
+                  rel="noopener noreferrer" title="System Dashboard" aria-label="System Dashboard">
+                  <i class="fas fa-graduation-cap"></i>
+                </a>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <div class="work-filters" data-aos="fade-up">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="ai">Artificial Intelligence</button>
-                <button class="filter-btn" data-filter="web">Web Development</button>
-                <button class="filter-btn" data-filter="python">Python</button>
-                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        <!-- Project 03: AI Medical Assistant -->
+        <div class="work-item ai ml python" data-aos="fade-up" data-aos-delay="200">
+          <div class="work-thumb" style="background-image: url('images/medical-assistant.jpg');">
+            <div class="overlay-text">
+              <span class="project-category">Artificial Intelligence & Healthcare</span>
+              <h3><a
+                  href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
+                  target="_blank" rel="noopener noreferrer">AI Medical Assistant</a></h3>
+              <p class="project-desc">Intelligent clinical assistant for patient symptom analysis,
+                diagnostic guidance, and healthcare vitals monitoring.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>AI / NLP</span>
+                <span>Diagnostics</span>
+                <span>Healthcare</span>
+              </div>
+              <div class="icons">
+                <a href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
+                  target="_blank" rel="noopener noreferrer" title="View Source on GitHub"
+                  aria-label="GitHub Repository">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
+                  target="_blank" rel="noopener noreferrer" title="Healthcare Assistant"
+                  aria-label="Healthcare Assistant">
+                  <i class="fas fa-user-md"></i>
+                </a>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <div class="work-grid">
-
-                <!-- Project 01: Dog vs Cat Classification -->
-                <div class="work-item ml ai python" data-aos="fade-up">
-                    <div class="work-thumb" style="background-image: url('images/dog-cat-classification.jpg');">
-                        <div class="overlay-text">
-                            <span class="project-category">Machine Learning & CNN</span>
-                            <h3><a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
-                                    rel="noopener noreferrer">Dog vs Cat Classification</a></h3>
-                            <p class="project-desc">Deep learning model trained with CNNs to accurately classify images
-                                of dogs and cats with high accuracy.</p>
-                            <div class="project-tags">
-                                <span>Python</span>
-                                <span>CNN</span>
-                                <span>TensorFlow</span>
-                                <span>Computer Vision</span>
-                            </div>
-                            <div class="icons">
-                                <a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
-                                    rel="noopener noreferrer" title="View Source on GitHub"
-                                    aria-label="GitHub Repository">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://github.com/MehdiHassan313/dog-cat-classification" target="_blank"
-                                    rel="noopener noreferrer" title="Project Details" aria-label="Project Details">
-                                    <i class="fas fa-paw"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 02: School Management System -->
-                <div class="work-item web python" data-aos="fade-up" data-aos-delay="100">
-                    <div class="work-thumb" style="background-image: url('images/school-management-system.jpg');">
-                        <div class="overlay-text">
-                            <span class="project-category">Web Development & Database</span>
-                            <h3><a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
-                                    rel="noopener noreferrer">School Management System</a></h3>
-                            <p class="project-desc">Full-featured management platform for student enrollment, attendance
-                                records, course grading, and teacher portal.</p>
-                            <div class="project-tags">
-                                <span>Python</span>
-                                <span>Web App</span>
-                                <span>Database</span>
-                                <span>EdTech</span>
-                            </div>
-                            <div class="icons">
-                                <a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
-                                    rel="noopener noreferrer" title="View Source on GitHub"
-                                    aria-label="GitHub Repository">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://github.com/MehdiHassan313/school-management-system" target="_blank"
-                                    rel="noopener noreferrer" title="System Dashboard" aria-label="System Dashboard">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 03: AI Medical Assistant -->
-                <div class="work-item ai ml python" data-aos="fade-up" data-aos-delay="200">
-                    <div class="work-thumb" style="background-image: url('images/medical-assistant.jpg');">
-                        <div class="overlay-text">
-                            <span class="project-category">Artificial Intelligence & Healthcare</span>
-                            <h3><a href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
-                                    target="_blank" rel="noopener noreferrer">AI Medical Assistant</a></h3>
-                            <p class="project-desc">Intelligent clinical assistant for patient symptom analysis,
-                                diagnostic guidance, and healthcare vitals monitoring.</p>
-                            <div class="project-tags">
-                                <span>Python</span>
-                                <span>AI / NLP</span>
-                                <span>Diagnostics</span>
-                                <span>Healthcare</span>
-                            </div>
-                            <div class="icons">
-                                <a href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
-                                    target="_blank" rel="noopener noreferrer" title="View Source on GitHub"
-                                    aria-label="GitHub Repository">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://github.com/MehdiHassan313/medical-chatbot/tree/main/medi%20Chatbot/smart_healthcare_assistant"
-                                    target="_blank" rel="noopener noreferrer" title="Healthcare Assistant"
-                                    aria-label="Healthcare Assistant">
-                                    <i class="fas fa-user-md"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 04: Personal Portfolio -->
-                <div class="work-item web" data-aos="fade-up" data-aos-delay="100">
-                    <div class="work-thumb" style="background-image: url('images/portfolio.jpg');">
-                        <div class="overlay-text">
-                            <span class="project-category">Frontend Web Development</span>
-                            <h3><a href="https://github.com/MehdiHassan313" target="_blank"
-                                    rel="noopener noreferrer">Personal Portfolio</a></h3>
-                            <p class="project-desc">Modern responsive portfolio website featuring interactive
-                                navigation, dynamic filtering, and custom blue theme.</p>
-                            <div class="project-tags">
-                                <span>HTML5</span>
-                                <span>CSS3</span>
-                                <span>JavaScript</span>
-                                <span>Responsive</span>
-                            </div>
-                            <div class="icons">
-                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
-                                    title="View Profile on GitHub" aria-label="GitHub Profile">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="#home" title="Live Preview" aria-label="Live Preview">
-                                    <i class="fas fa-laptop-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 05: AI Chatbot System -->
-                <div class="work-item ai python" data-aos="fade-up" data-aos-delay="200">
-                    <div class="work-thumb" style="background-image: url('images/AI Chat Bot.png');">
-                        <div class="overlay-text">
-                            <span class="project-category">Artificial Intelligence & NLP</span>
-                            <h3><a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer">AI
-                                    Chatbot System</a></h3>
-                            <p class="project-desc">Conversational agent powered by natural language processing to
-                                automate queries and support workflows.</p>
-                            <div class="project-tags">
-                                <span>Python</span>
-                                <span>NLP</span>
-                                <span>Bot API</span>
-                                <span>Automation</span>
-                            </div>
-                            <div class="icons">
-                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
-                                    title="View on GitHub" aria-label="GitHub Repository">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
-                                    title="Explore Chatbot" aria-label="Explore Chatbot">
-                                    <i class="fas fa-robot"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 06: E-Commerce Web Platform -->
-                <div class="work-item web" data-aos="fade-up" data-aos-delay="300">
-                    <div class="work-thumb" style="background-image: url('images/E-Commers web.png');">
-                        <div class="overlay-text">
-                            <span class="project-category">Full-Stack Web Development</span>
-                            <h3><a href="https://github.com/MehdiHassan313" target="_blank"
-                                    rel="noopener noreferrer">E-Commerce Web Store</a></h3>
-                            <p class="project-desc">Complete e-commerce storefront with product catalogs, shopping cart,
-                                interactive checkout, and responsive design.</p>
-                            <div class="project-tags">
-                                <span>JavaScript</span>
-                                <span>E-Commerce</span>
-                                <span>UI/UX</span>
-                                <span>Web Store</span>
-                            </div>
-                            <div class="icons">
-                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
-                                    title="View on GitHub" aria-label="GitHub Repository">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
-                                    title="Store Preview" aria-label="Store Preview">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+        <!-- Project 04: Personal Portfolio -->
+        <div class="work-item web" data-aos="fade-up" data-aos-delay="100">
+          <div class="work-thumb" style="background-image: url('images/portfolio.jpg');">
+            <div class="overlay-text">
+              <span class="project-category">Frontend Web Development</span>
+              <h3><a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer">Personal
+                  Portfolio</a></h3>
+              <p class="project-desc">Modern responsive portfolio website featuring interactive
+                navigation, dynamic filtering, and custom blue theme.</p>
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive</span>
+              </div>
+              <div class="icons">
+                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
+                  title="View Profile on GitHub" aria-label="GitHub Profile">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#home" title="Live Preview" aria-label="Live Preview">
+                  <i class="fas fa-laptop-code"></i>
+                </a>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <!-- <div class="load-more-wrap" data-aos="fade-up">
+        <!-- Project 05: AI Chatbot System -->
+        <div class="work-item ai python" data-aos="fade-up" data-aos-delay="200">
+          <div class="work-thumb" style="background-image: url('images/AI Chat Bot.png');">
+            <div class="overlay-text">
+              <span class="project-category">Artificial Intelligence & NLP</span>
+              <h3><a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer">AI
+                  Chatbot System</a></h3>
+              <p class="project-desc">Conversational agent powered by natural language processing to
+                automate queries and support workflows.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>NLP</span>
+                <span>Bot API</span>
+                <span>Automation</span>
+              </div>
+              <div class="icons">
+                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
+                  title="View on GitHub" aria-label="GitHub Repository">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://github.com/MehdiHassan313" target="_blank" rel="noopener noreferrer"
+                  title="Explore Chatbot" aria-label="Explore Chatbot">
+                  <i class="fas fa-robot"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 03: AI Assistant -->
+        <div class="work-item ai ml python" data-aos="fade-up" data-aos-delay="200">
+          <div class="work-thumb" style="background-image: url('images/medical-assistant.jpg');">
+            <div class="overlay-text">
+              <span class="project-category">Artificial Intelligence & Machine Learning</span>
+              <h3><a href="https://github.com/MehdiHassan313/My-Ai-Assistant-" target="_blank"
+                  rel="noopener noreferrer">AI Assistant</a></h3>
+              <p class="project-desc">Intelligent assistant for client requests, web information retrieval and
+                Automation.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>AI / NLP</span>
+                <span>Automation</span>
+                <span>Web Scrapping</span>
+              </div>
+              <div class="icons">
+                <a href="https://github.com/MehdiHassan313/My-Ai-Assistant-" target="_blank" rel="noopener noreferrer"
+                  title="View Source on GitHub" aria-label="GitHub Repository">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://github.com/MehdiHassan313/My-Ai-Assistant-" target="_blank" rel="noopener noreferrer"
+                  title="Healthcare Assistant" aria-label="Healthcare Assistant">
+                  <i class="fas fa-user-md"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- <div class="load-more-wrap" data-aos="fade-up">
                             <button class="btn-load-more">Load more <i class="fas fa-sync-alt"></i></button>
                         </div> -->
-        </section>
+    </section>
 
-        <!-- Latest Articles Blog Section -->
-        <section id="blog" class="section">
-            <div class="section-heading" data-aos="fade-up">
-                <span class="subheading">LATEST ARTICLES</span>
-                <h2 class="heading">FROM THE BLOG</h2>
+    <!-- Latest Articles Blog Section -->
+    <section id="blog" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="subheading">LATEST ARTICLES</span>
+        <h2 class="heading">FROM THE BLOG</h2>
+      </div>
+
+      <div class="blog-grid">
+
+        <div class="blog-entry" data-aos="fade-up">
+
+          <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html" class="blog-img"
+            target="_blank" rel="noopener noreferrer" style="background-image: url('images/blog-1.jpg');">
+          </a>
+
+          <div class="blog-desc">
+
+            <span class="tag">TECHNOLOGY</span>
+            <span class="date">October 2024</span>
+
+            <h3>
+              <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html" target="_blank"
+                rel="noopener noreferrer">
+                Stairlifts to Aid Elderly and Improve Accessibility
+              </a>
+            </h3>
+
+            <p>
+              Discover how stairlifts can help elderly people move
+              safely between floors, improve accessibility, and
+              maintain independence in their homes.
+            </p>
+
+            <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html" target="_blank"
+              rel="noopener noreferrer" class="read-more">
+              Read article &rarr;
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="blog-entry" data-aos="fade-up" data-aos-delay="100">
+
+          <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
+            style="background-image: url('images/blog-2.jpg');">
+          </a>
+
+          <div class="blog-desc">
+            <span class="tag">ARTIFICIAL INTELLIGENCE</span>
+            <span class="date">Technology</span>
+
+            <h3>
+              <a href="https://techwithhassangb.blogspot.com/" target="_blank">
+                Artificial Intelligence in Everyday Life
+              </a>
+            </h3>
+
+            <p>
+              Explore how Artificial Intelligence is changing everyday
+              life through smart assistants, automation, and intelligent
+              applications.
+            </p>
+
+            <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
+              Read article &rarr;
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Blog 3 -->
+        <div class="blog-entry" data-aos="fade-up" data-aos-delay="200">
+
+          <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
+            style="background-image: url('images/blog-3.jpg');">
+          </a>
+
+          <div class="blog-desc">
+            <span class="tag">WEB DEVELOPMENT</span>
+            <span class="date">Web Technology</span>
+
+            <h3>
+              <a href="https://techwithhassangb.blogspot.com/" target="_blank">
+                Getting Started with Web Development
+              </a>
+            </h3>
+
+            <p>
+              Learn about HTML, CSS, and JavaScript and how these
+              technologies work together to build responsive websites.
+            </p>
+
+            <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
+              Read article &rarr;
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Blog 4 -->
+        <div class="blog-entry" data-aos="fade-up" data-aos-delay="300">
+
+          <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
+            style="background-image: url('images/blog-4.jpg');">
+          </a>
+
+          <div class="blog-desc">
+            <span class="tag">MACHINE LEARNING</span>
+            <span class="date">Artificial Intelligence</span>
+
+            <h3>
+              <a href="https://techwithhassangb.blogspot.com/" target="_blank">
+                Understanding Machine Learning
+              </a>
+            </h3>
+
+            <p>
+              Discover how machines learn from data, recognize patterns,
+              and make predictions using Machine Learning techniques.
+            </p>
+
+            <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
+              Read article &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="subheading">GET IN TOUCH</span>
+        <h2 class="heading">CONTACT</h2>
+      </div>
+
+      <div class="contact-row">
+
+        <div class="contact-info" data-aos="fade-up">
+
+          <!-- Email -->
+          <div class="c-box">
+            <div class="c-icon">
+              <i class="fas fa-envelope"></i>
             </div>
+            <p>
+              <a href="mailto:mehdi313hassan@gmail.com">
+                mehdi313hassan@gmail.com
+              </a>
+            </p>
+          </div>
 
-            <div class="blog-grid">
-
-                <div class="blog-entry" data-aos="fade-up">
-
-                    <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html"
-                        class="blog-img" target="_blank" rel="noopener noreferrer"
-                        style="background-image: url('images/blog-1.jpg');">
-                    </a>
-
-                    <div class="blog-desc">
-
-                        <span class="tag">TECHNOLOGY</span>
-                        <span class="date">October 2024</span>
-
-                        <h3>
-                            <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html"
-                                target="_blank" rel="noopener noreferrer">
-                                Stairlifts to Aid Elderly and Improve Accessibility
-                            </a>
-                        </h3>
-
-                        <p>
-                            Discover how stairlifts can help elderly people move
-                            safely between floors, improve accessibility, and
-                            maintain independence in their homes.
-                        </p>
-
-                        <a href="https://techwithhassangb.blogspot.com/2024/10/stairlifts-to-aid-elderly-and.html"
-                            target="_blank" rel="noopener noreferrer" class="read-more">
-                            Read article &rarr;
-                        </a>
-
-                    </div>
-                </div>
-
-                <!-- Blog 2 -->
-                <div class="blog-entry" data-aos="fade-up" data-aos-delay="100">
-
-                    <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
-                        style="background-image: url('images/blog-2.jpg');">
-                    </a>
-
-                    <div class="blog-desc">
-                        <span class="tag">ARTIFICIAL INTELLIGENCE</span>
-                        <span class="date">Technology</span>
-
-                        <h3>
-                            <a href="https://techwithhassangb.blogspot.com/" target="_blank">
-                                Artificial Intelligence in Everyday Life
-                            </a>
-                        </h3>
-
-                        <p>
-                            Explore how Artificial Intelligence is changing everyday
-                            life through smart assistants, automation, and intelligent
-                            applications.
-                        </p>
-
-                        <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
-                            Read article &rarr;
-                        </a>
-                    </div>
-                </div>
-
-
-                <!-- Blog 3 -->
-                <div class="blog-entry" data-aos="fade-up" data-aos-delay="200">
-
-                    <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
-                        style="background-image: url('images/blog-3.jpg');">
-                    </a>
-
-                    <div class="blog-desc">
-                        <span class="tag">WEB DEVELOPMENT</span>
-                        <span class="date">Web Technology</span>
-
-                        <h3>
-                            <a href="https://techwithhassangb.blogspot.com/" target="_blank">
-                                Getting Started with Web Development
-                            </a>
-                        </h3>
-
-                        <p>
-                            Learn about HTML, CSS, and JavaScript and how these
-                            technologies work together to build responsive websites.
-                        </p>
-
-                        <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
-                            Read article &rarr;
-                        </a>
-                    </div>
-                </div>
-
-
-                <!-- Blog 4 -->
-                <div class="blog-entry" data-aos="fade-up" data-aos-delay="300">
-
-                    <a href="https://techwithhassangb.blogspot.com/" class="blog-img" target="_blank"
-                        style="background-image: url('images/blog-4.jpg');">
-                    </a>
-
-                    <div class="blog-desc">
-                        <span class="tag">MACHINE LEARNING</span>
-                        <span class="date">Artificial Intelligence</span>
-
-                        <h3>
-                            <a href="https://techwithhassangb.blogspot.com/" target="_blank">
-                                Understanding Machine Learning
-                            </a>
-                        </h3>
-
-                        <p>
-                            Discover how machines learn from data, recognize patterns,
-                            and make predictions using Machine Learning techniques.
-                        </p>
-
-                        <a href="https://techwithhassangb.blogspot.com/" target="_blank" class="read-more">
-                            Read article &rarr;
-                        </a>
-                    </div>
-                </div>
-
+          <!-- Location -->
+          <div class="c-box">
+            <div class="c-icon">
+              <i class="fas fa-map-marker-alt"></i>
             </div>
-        </section>
+            <p>
+              Chilmish, Gilgit-Baltistan, Pakistan
+            </p>
+          </div>
 
-        <!-- Contact Section -->
-        <section id="contact" class="section">
-            <div class="section-heading" data-aos="fade-up">
-                <span class="subheading">GET IN TOUCH</span>
-                <h2 class="heading">CONTACT</h2>
+          <!-- Phone -->
+          <div class="c-box">
+            <div class="c-icon">
+              <i class="fas fa-phone"></i>
             </div>
+            <p>
+              <a href="tel:+923554342070">
+                +92 355 4342070
+              </a>
+            </p>
+          </div>
 
-            <div class="contact-row">
-
-                <div class="contact-info" data-aos="fade-up">
-
-                    <!-- Email -->
-                    <div class="c-box">
-                        <div class="c-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <p>
-                            <a href="mailto:mehdi313hassan@gmail.com">
-                                mehdi313hassan@gmail.com
-                            </a>
-                        </p>
-                    </div>
-
-                    <!-- Location -->
-                    <div class="c-box">
-                        <div class="c-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <p>
-                            Chilmish, Gilgit-Baltistan, Pakistan
-                        </p>
-                    </div>
-
-                    <!-- Phone -->
-                    <div class="c-box">
-                        <div class="c-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <p>
-                            <a href="tel:+923554342070">
-                                +92 355 4342070
-                            </a>
-                        </p>
-                    </div>
-
-                    <!-- LinkedIn -->
-                    <div class="c-box">
-                        <div class="c-icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <p>
-                            <a href="https://www.linkedin.com/in/mehdi-hassan-b11922360/" target="_blank">
-                                LinkedIn
-                            </a>
-                        </p>
-                    </div>
-
-                    <!-- Instagram -->
-                    <div class="c-box">
-                        <div class="c-icon">
-                            <i class="fab fa-instagram"></i>
-                        </div>
-                        <p>
-                            <a href="https://www.instagram.com/mehdi_h_assan/" target="_blank">
-                                Instagram
-                            </a>
-                        </p>
-                    </div>
-
-                    <!-- Facebook -->
-                    <div class="c-box">
-                        <div class="c-icon">
-                            <i class="fab fa-facebook"></i>
-                        </div>
-                        <p>
-                            <a href="https://www.facebook.com/people/Mehdi-Hassan/100072296795660/" target="_blank">
-                                Facebook
-                            </a>
-                        </p>
-                    </div>
-
-                </div>
-
-                <!-- Contact Form -->
-                <div class="contact-form" data-aos="fade-up" data-aos-delay="100">
-                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                        <!-- Web3Forms Access Key -->
-                        <input type="hidden" name="access_key" id="access_key"
-                            value="2356edc1-2fdf-4c97-aa35-9f2dd0539587">
-                        <input type="hidden" name="from_name" value="Portfolio Website Visitor">
-                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
-
-                        <input type="text" name="name" class="form-control" placeholder="Name" required>
-
-                        <input type="email" name="email" class="form-control" placeholder="Email" required>
-
-                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-
-                        <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message"
-                            required></textarea>
-
-                        <button type="submit" class="btn-send" id="btn-submit">
-                            <span>Send Message</span>
-                        </button>
-
-                        <div id="form-status" class="form-status" style="display: none;"></div>
-                    </form>
-                </div>
-
+          <!-- LinkedIn -->
+          <div class="c-box">
+            <div class="c-icon">
+              <i class="fab fa-linkedin"></i>
             </div>
-        </section>
+            <p>
+              <a href="https://www.linkedin.com/in/mehdi-hassan-b11922360/" target="_blank">
+                LinkedIn
+              </a>
+            </p>
+          </div>
 
-    </main>
+          <!-- Instagram -->
+          <div class="c-box">
+            <div class="c-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <p>
+              <a href="https://www.instagram.com/mehdi_h_assan/" target="_blank">
+                Instagram
+              </a>
+            </p>
+          </div>
 
-    <!-- AOS Animation Library JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <!-- Main Script -->
-    <script src="script.js"></script>
+          <!-- Facebook -->
+          <div class="c-box">
+            <div class="c-icon">
+              <i class="fab fa-facebook"></i>
+            </div>
+            <p>
+              <a href="https://www.facebook.com/people/Mehdi-Hassan/100072296795660/" target="_blank">
+                Facebook
+              </a>
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form" data-aos="fade-up" data-aos-delay="100">
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" id="access_key" value="2356edc1-2fdf-4c97-aa35-9f2dd0539587">
+            <input type="hidden" name="from_name" value="Portfolio Website Visitor">
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+            <input type="text" name="name" class="form-control" placeholder="Name" required>
+
+            <input type="email" name="email" class="form-control" placeholder="Email" required>
+
+            <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+
+            <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+
+            <button type="submit" class="btn-send" id="btn-submit">
+              <span>Send Message</span>
+            </button>
+
+            <div id="form-status" class="form-status" style="display: none;"></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- AOS Animation Library JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Main Script -->
+  <script src="script.js"></script>
 
 
-    <!-- =========================================================================
+  <!-- =========================================================================
      PORTFOLIO AI VOICE ASSISTANT - EMBED SNIPPET
      Paste this snippet just before the closing </body> tag of your portfolio!
      ========================================================================= -->
 
-<!-- 1. WIDGET HTML -->
-<button id="pva-launcher" onclick="pvaToggle()" aria-label="Open AI Voice Assistant">
-  <div class="pva-launcher-icon-wrap">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
-      <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
-      <line x1="12" x2="12" y1="19" y2="22" />
-    </svg>
-    <span class="pva-pulse-dot"></span>
-  </div>
-  <span>Ask Assistant </span>
-</button>
-
-<div id="pva-window" role="dialog" aria-modal="true" aria-label="AI Voice Assistant">
-  <div class="pva-header">
-    <div class="pva-header-info">
-      <div class="pva-avatar">
-        AI
-        <span class="pva-avatar-online" title="Online"></span>
-      </div>
-      <div class="pva-title-box">
-        <h4>Portfolio Assistant</h4>
-        <p>Online • Voice & Text</p>
-      </div>
-    </div>
-    <div class="pva-header-controls">
-      <button id="pva-mute-btn" class="pva-icon-btn" onclick="pvaToggleMute()" title="Mute/Unmute Spoken Answers">
-        <svg id="pva-volume-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
-          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
-          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
-        </svg>
-      </button>
-      <button class="pva-icon-btn" onclick="pvaToggle(false)" title="Close Chat">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="6" x2="6" y2="18" />
-          <line x1="6" y1="6" x2="18" y2="18" />
-        </svg>
-      </button>
-    </div>
-  </div>
-
-  <div id="pva-banner" class="pva-status-banner pva-hidden">
-    <div class="pva-status-text">
-      <div class="pva-wave">
-        <span></span><span></span><span></span><span></span>
-      </div>
-      <span id="pva-banner-label">Listening...</span>
-    </div>
-    <button id="pva-banner-action" class="pva-btn-stop-voice" onclick="pvaStopVoice()" style="display:none;">Stop
-      Voice</button>
-  </div>
-
-  <div id="pva-messages" class="pva-messages">
-    <div class="pva-msg pva-msg-assistant">
-      <div class="pva-bubble">
-        Hi! I am Mehdi Hassan's assistant. Ask me anything about his projects, background, skills, or availability!
-      </div>
-    </div>
-    <div id="pva-suggestions-box" class="pva-suggestions">
-      <button class="pva-chip" onclick="pvaAskSuggestion('What projects have you made?')">💡 What projects have you
-        made?</button>
-      <button class="pva-chip" onclick="pvaAskSuggestion('What are your main skills?')">⚡ What are your main
-        skills?</button>
-      <button class="pva-chip" onclick="pvaAskSuggestion('How can I contact you?')">✉️ How can I contact you?</button>
-    </div>
-  </div>
-
-  <div class="pva-input-area">
-    <button id="pva-mic-btn" class="pva-mic-btn" onclick="pvaToggleVoice()" title="Speak question">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+  <!-- 1. WIDGET HTML -->
+  <button id="pva-launcher" onclick="pvaToggle()" aria-label="Open AI Voice Assistant">
+    <div class="pva-launcher-icon-wrap">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"
         stroke-linecap="round" stroke-linejoin="round">
         <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
         <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
         <line x1="12" x2="12" y1="19" y2="22" />
       </svg>
-    </button>
-    <div class="pva-input-wrapper">
-      <input type="text" id="pva-text-input" class="pva-text-input" placeholder="Ask a question..." maxlength="300"
-        autocomplete="off" />
+      <span class="pva-pulse-dot"></span>
     </div>
-    <button id="pva-send-btn" class="pva-send-btn" onclick="pvaSubmitText()" title="Send">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
-        stroke-linecap="round" stroke-linejoin="round">
-        <line x1="22" y1="2" x2="11" y2="13" />
-        <polygon points="22 2 15 22 11 13 2 9 22 2" />
-      </svg>
-    </button>
+    <span>Ask Assistant </span>
+  </button>
+
+  <div id="pva-window" role="dialog" aria-modal="true" aria-label="AI Voice Assistant">
+    <div class="pva-header">
+      <div class="pva-header-info">
+        <div class="pva-avatar">
+          MH
+          <span class="pva-avatar-online" title="Online"></span>
+        </div>
+        <div class="pva-title-box">
+          <h4>Portfolio Assistant</h4>
+          <p>Online • Voice & Text</p>
+        </div>
+      </div>
+      <div class="pva-header-controls">
+        <button id="pva-mute-btn" class="pva-icon-btn" onclick="pvaToggleMute()" title="Mute/Unmute Spoken Answers">
+          <svg id="pva-volume-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+          </svg>
+        </button>
+        <button class="pva-icon-btn" onclick="pvaToggle(false)" title="Close Chat">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="pva-banner" class="pva-status-banner pva-hidden">
+      <div class="pva-status-text">
+        <div class="pva-wave">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <span id="pva-banner-label">Listening...</span>
+      </div>
+      <button id="pva-banner-action" class="pva-btn-stop-voice" onclick="pvaStopVoice()" style="display:none;">Stop
+        Voice</button>
+    </div>
+
+    <div id="pva-messages" class="pva-messages">
+      <div class="pva-msg pva-msg-assistant">
+        <div class="pva-bubble">
+          Hi! I am Mehdi Hassan's assistant. Ask me anything about his projects, background, skills, or availability!
+        </div>
+      </div>
+      <div id="pva-suggestions-box" class="pva-suggestions">
+        <button class="pva-chip" onclick="pvaAskSuggestion('What projects have you made?')">💡 What projects have you
+          made?</button>
+        <button class="pva-chip" onclick="pvaAskSuggestion('What are your main skills?')">⚡ What are your main
+          skills?</button>
+        <button class="pva-chip" onclick="pvaAskSuggestion('How can I contact you?')">✉️ How can I contact you?</button>
+      </div>
+    </div>
+
+    <div class="pva-input-area">
+      <button id="pva-mic-btn" class="pva-mic-btn" onclick="pvaToggleVoice()" title="Speak question">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
+          <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+          <line x1="12" x2="12" y1="19" y2="22" />
+        </svg>
+      </button>
+      <div class="pva-input-wrapper">
+        <input type="text" id="pva-text-input" class="pva-text-input" placeholder="Ask a question..." maxlength="300"
+          autocomplete="off" />
+      </div>
+      <button id="pva-send-btn" class="pva-send-btn" onclick="pvaSubmitText()" title="Send">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13" />
+          <polygon points="22 2 15 22 11 13 2 9 22 2" />
+        </svg>
+      </button>
+    </div>
+    <div class="pva-footer-note">Powered by Google Gemini</div>
   </div>
-  <div class="pva-footer-note">Powered by Google Gemini</div>
-</div>
 
-<!-- 2. WIDGET CSS -->
-<style>
-#pva-launcher, #pva-window {
-    --pva-accent: #4f46e5;
-    /* Change to your portfolio accent color */
-    --pva-accent-hover: #4338ca;
-    --pva-accent-light: #eef2ff;
-    --pva-accent-border: #c7d2fe;
-    --pva-accent-glow: rgba(79, 70, 229, 0.28);
-    --pva-bg: #ffffff;
-    --pva-bg-subtle: #f8fafc;
-    --pva-border: #e2e8f0;
-    --pva-text: #0f172a;
-    --pva-text-muted: #64748b;
-  }
-
-  #pva-launcher {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    z-index: 999999;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background: var(--pva-accent);
-    color: #ffffff;
-    border: none;
-    padding: 14px 20px 14px 16px;
-    border-radius: 9999px;
-    box-shadow: 0 16px 36px var(--pva-accent-glow);
-    cursor: pointer;
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-    font-size: 0.95rem;
-    font-weight: 700;
-    transition: all 0.25s ease;
-  }
-
-  #pva-launcher:hover {
-    background: var(--pva-accent-hover);
-    transform: translateY(-3px) scale(1.02);
-  }
-
-  .pva-launcher-icon-wrap {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .pva-pulse-dot {
-    position: absolute;
-    top: -2px;
-    right: -2px;
-    width: 10px;
-    height: 10px;
-    background: #22c55e;
-    border: 2px solid var(--pva-accent);
-    border-radius: 50%;
-    animation: pvaPulseAnim 2s infinite;
-  }
-
-  @keyframes pvaPulseAnim {
-    0% {
-      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  <!-- 2. WIDGET CSS -->
+  <style>
+    #pva-launcher,
+    #pva-window {
+      --pva-accent: #4f46e5;
+      /* Change to your portfolio accent color */
+      --pva-accent-hover: #4338ca;
+      --pva-accent-light: #eef2ff;
+      --pva-accent-border: #c7d2fe;
+      --pva-accent-glow: rgba(79, 70, 229, 0.28);
+      --pva-bg: #ffffff;
+      --pva-bg-subtle: #f8fafc;
+      --pva-border: #e2e8f0;
+      --pva-text: #0f172a;
+      --pva-text-muted: #64748b;
     }
 
-    70% {
-      box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
-    }
-
-    100% {
-      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
-    }
-  }
-
-  #pva-window {
-    position: fixed;
-    bottom: 92px;
-    right: 24px;
-    z-index: 999998;
-    width: 380px;
-    max-width: calc(100vw - 32px);
-    height: 540px;
-    max-height: calc(100vh - 120px);
-    background: var(--pva-bg);
-    border: 1px solid var(--pva-border);
-    border-radius: 20px;
-    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.14);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    opacity: 0;
-    transform: translateY(20px) scale(0.95);
-    pointer-events: none;
-    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-    color: var(--pva-text);
-  }
-
-  #pva-window.pva-open {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    pointer-events: all;
-  }
-
-  .pva-header {
-    background: #ffffff;
-    padding: 14px 18px;
-    border-bottom: 1px solid var(--pva-border);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-shrink: 0;
-  }
-
-  .pva-header-info {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .pva-avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--pva-accent), #818cf8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-weight: 700;
-    font-size: 0.95rem;
-    position: relative;
-  }
-
-  .pva-avatar-online {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    background: #10b981;
-    border: 2px solid #fff;
-    border-radius: 50%;
-  }
-
-  .pva-title-box h4 {
-    font-size: 0.95rem;
-    font-weight: 700;
-    margin: 0;
-    line-height: 1.2;
-    color: var(--pva-text);
-  }
-
-  .pva-title-box p {
-    font-size: 0.75rem;
-    color: var(--pva-text-muted);
-    margin: 0;
-  }
-
-  .pva-header-controls {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .pva-icon-btn {
-    background: none;
-    border: none;
-    width: 34px;
-    height: 34px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    color: var(--pva-text-muted);
-    transition: all 0.15s ease;
-  }
-
-  .pva-icon-btn:hover {
-    background: var(--pva-bg-subtle);
-    color: var(--pva-text);
-  }
-
-  .pva-icon-btn.active-control {
-    color: var(--pva-accent);
-    background: var(--pva-accent-light);
-  }
-
-  .pva-status-banner {
-    background: var(--pva-accent-light);
-    border-bottom: 1px solid var(--pva-accent-border);
-    padding: 8px 16px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--pva-accent);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .pva-status-banner.pva-hidden {
-    display: none;
-  }
-
-  .pva-status-banner.is-listening {
-    background: #fef2f2;
-    border-color: #fecaca;
-    color: #dc2626;
-  }
-
-  .pva-status-text {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .pva-wave {
-    display: inline-flex;
-    align-items: center;
-    gap: 2px;
-    height: 14px;
-  }
-
-  .pva-wave span {
-    width: 3px;
-    height: 100%;
-    background-color: currentColor;
-    border-radius: 3px;
-    animation: pvaWaveAnim 1s ease-in-out infinite alternate;
-  }
-
-  .pva-wave span:nth-child(2) {
-    animation-delay: 0.2s;
-    height: 70%;
-  }
-
-  .pva-wave span:nth-child(3) {
-    animation-delay: 0.4s;
-    height: 100%;
-  }
-
-  .pva-wave span:nth-child(4) {
-    animation-delay: 0.1s;
-    height: 50%;
-  }
-
-  @keyframes pvaWaveAnim {
-    0% {
-      transform: scaleY(0.3);
-    }
-
-    100% {
-      transform: scaleY(1);
-    }
-  }
-
-  .pva-btn-stop-voice {
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid currentColor;
-    border-radius: 9999px;
-    padding: 2px 10px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    cursor: pointer;
-    color: inherit;
-  }
-
-  .pva-messages {
-    flex: 1;
-    padding: 16px;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    background: var(--pva-bg-subtle);
-    scroll-behavior: smooth;
-  }
-
-  .pva-msg {
-    display: flex;
-    gap: 8px;
-    max-width: 85%;
-    word-break: break-word;
-  }
-
-  .pva-msg-user {
-    align-self: flex-end;
-    flex-direction: row-reverse;
-  }
-
-  .pva-msg-assistant {
-    align-self: flex-start;
-  }
-
-  .pva-bubble {
-    padding: 10px 14px;
-    border-radius: 14px;
-    font-size: 0.9rem;
-    line-height: 1.45;
-  }
-
-  .pva-msg-user .pva-bubble {
-    background: var(--pva-accent);
-    color: #ffffff;
-    border-bottom-right-radius: 4px;
-  }
-
-  .pva-msg-assistant .pva-bubble {
-    background: #ffffff;
-    color: var(--pva-text);
-    border: 1px solid var(--pva-border);
-    border-bottom-left-radius: 4px;
-  }
-
-  .pva-suggestions {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    margin-top: 4px;
-  }
-
-  .pva-chip {
-    background: #ffffff;
-    border: 1px solid var(--pva-accent-border);
-    color: var(--pva-accent);
-    border-radius: 9999px;
-    padding: 7px 12px;
-    font-size: 0.82rem;
-    font-weight: 600;
-    text-align: left;
-    cursor: pointer;
-    transition: all 0.15s ease;
-  }
-
-  .pva-chip:hover {
-    background: var(--pva-accent-light);
-    border-color: var(--pva-accent);
-    transform: translateX(3px);
-  }
-
-  .pva-typing-indicator {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding: 12px 16px;
-  }
-
-  .pva-dot {
-    width: 7px;
-    height: 7px;
-    background: #94a3b8;
-    border-radius: 50%;
-    animation: pvaDotBounce 1.4s infinite ease-in-out both;
-  }
-
-  .pva-dot:nth-child(1) {
-    animation-delay: -0.32s;
-  }
-
-  .pva-dot:nth-child(2) {
-    animation-delay: -0.16s;
-  }
-
-  @keyframes pvaDotBounce {
-
-    0%,
-    80%,
-    100% {
-      transform: scale(0);
-    }
-
-    40% {
-      transform: scale(1);
+    #pva-launcher {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 999999;
+      display: flex;
+      align-items: center;
+      gap: 10px;
       background: var(--pva-accent);
-    }
-  }
-
-  .pva-error-toast {
-    background: #fef2f2;
-    border: 1px solid #fecaca;
-    color: #b91c1c;
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-size: 0.8rem;
-    text-align: center;
-  }
-
-  .pva-input-area {
-    background: #ffffff;
-    border-top: 1px solid var(--pva-border);
-    padding: 12px 14px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
-  }
-
-  .pva-input-wrapper {
-    position: relative;
-    flex: 1;
-    display: flex;
-    align-items: center;
-  }
-
-  .pva-text-input {
-    width: 100%;
-    padding: 10px 14px;
-    border: 1px solid var(--pva-border);
-    border-radius: 9999px;
-    font-size: 0.9rem;
-    background: var(--pva-bg-subtle);
-    color: var(--pva-text);
-    outline: none;
-  }
-
-  .pva-text-input:focus {
-    border-color: var(--pva-accent);
-    background: #ffffff;
-    box-shadow: 0 0 0 3px var(--pva-accent-glow);
-  }
-
-  .pva-mic-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid var(--pva-accent-border);
-    background: var(--pva-accent-light);
-    color: var(--pva-accent);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    flex-shrink: 0;
-    transition: all 0.2s ease;
-  }
-
-  .pva-mic-btn:hover {
-    background: var(--pva-accent);
-    color: #ffffff;
-    transform: scale(1.05);
-  }
-
-  .pva-mic-btn.is-active-mic {
-    background: #ef4444 !important;
-    color: #ffffff !important;
-    border-color: #ef4444 !important;
-    animation: pvaPulseMic 1.5s infinite;
-  }
-
-  @keyframes pvaPulseMic {
-    0% {
-      box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+      color: #ffffff;
+      border: none;
+      padding: 14px 20px 14px 16px;
+      border-radius: 9999px;
+      box-shadow: 0 16px 36px var(--pva-accent-glow);
+      cursor: pointer;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      transition: all 0.25s ease;
     }
 
-    70% {
-      box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+    #pva-launcher:hover {
+      background: var(--pva-accent-hover);
+      transform: translateY(-3px) scale(1.02);
     }
 
-    100% {
-      box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    .pva-launcher-icon-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-  }
 
-  .pva-send-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    background: var(--pva-accent);
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    flex-shrink: 0;
-    transition: all 0.2s ease;
-  }
+    .pva-pulse-dot {
+      position: absolute;
+      top: -2px;
+      right: -2px;
+      width: 10px;
+      height: 10px;
+      background: #22c55e;
+      border: 2px solid var(--pva-accent);
+      border-radius: 50%;
+      animation: pvaPulseAnim 2s infinite;
+    }
 
-  .pva-send-btn:hover:not(:disabled) {
-    background: var(--pva-accent-hover);
-    transform: scale(1.05);
-  }
-
-  .pva-send-btn:disabled,
-  .pva-mic-btn:disabled {
-    opacity: 0.45;
-    cursor: not-allowed;
-  }
-
-  .pva-footer-note {
-    text-align: center;
-    font-size: 0.7rem;
-    color: #94a3b8;
-    padding: 4px 0 2px;
-    background: #ffffff;
-  }
-
-  
-@media (max-width: 480px) {
-  #pva-window {
-    width: 100vw;
-    max-width: 100vw;
-    height: calc(100vh - 80px);
-    height: calc(100dvh - 80px);
-    max-height: none;
-    bottom: 0;
-    right: 0;
-    border-radius: 20px 20px 0 0;
-  }
-
-  #pva-launcher {
-    bottom: 16px;
-    right: 16px;
-  }
-
-  #pva-launcher.pva-launcher-hidden {
-    display: none;
-  }
-
-  .pva-text-input {
-    font-size: 16px;
-  }
-}
-
-
-</style>
-
-<!-- 3. WIDGET JAVASCRIPT -->
-<script>
-  (function () {
-    // ⚙️ Set this to your deployed backend API URL (e.g., 'https://my-assistant-api.onrender.com/api/chat')
-    // If backend and portfolio are on the same domain, leave as '/api/chat'
-    const BACKEND_URL = 'https://aiassistand.netlify.app/.netlify/functions/chat';
-
-    let history = [];
-    let isMuted = false;
-    let isListening = false;
-    let isThinking = false;
-    let isSpeaking = false;
-    let recognition = null;
-
-    const win = document.getElementById('pva-window');
-    const messages = document.getElementById('pva-messages');
-    const input = document.getElementById('pva-text-input');
-    const sendBtn = document.getElementById('pva-send-btn');
-    const micBtn = document.getElementById('pva-mic-btn');
-    const muteBtn = document.getElementById('pva-mute-btn');
-    const volumeIcon = document.getElementById('pva-volume-icon');
-    const banner = document.getElementById('pva-banner');
-    const bannerLabel = document.getElementById('pva-banner-label');
-    const bannerAction = document.getElementById('pva-banner-action');
-
-    window.pvaToggle = function (force) {
-      const open = force !== undefined ? force : !win.classList.contains('pva-open');
-      document.getElementById('pva-launcher').classList.toggle('pva-launcher-hidden', open);
-      if (open) {
-        win.classList.add('pva-open');
-        input.focus();
-      } else {
-        win.classList.remove('pva-open');
-        pvaStopListening();
-        pvaStopVoice();
+    @keyframes pvaPulseAnim {
+      0% {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
       }
-    };
 
-    const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (SpeechRec) {
-      try {
-        recognition = new SpeechRec();
-        recognition.continuous = false;
-        recognition.interimResults = false;
-        recognition.lang = 'en-US';
+      70% {
+        box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
+      }
 
-        recognition.onstart = () => {
-          isListening = true;
-          micBtn.classList.add('is-active-mic');
-          showBanner("Listening... Speak now", true, false);
-        };
-        recognition.onresult = (e) => {
-          const t = e.results[0][0].transcript;
-          if (t && t.trim()) {
-            input.value = t.trim();
-            pvaSendMessage(t.trim());
-          }
-        };
-        recognition.onerror = (e) => {
+      100% {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+      }
+    }
+
+    #pva-window {
+      position: fixed;
+      bottom: 92px;
+      right: 24px;
+      z-index: 999998;
+      width: 380px;
+      max-width: calc(100vw - 32px);
+      height: 540px;
+      max-height: calc(100vh - 120px);
+      background: var(--pva-bg);
+      border: 1px solid var(--pva-border);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.14);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(20px) scale(0.95);
+      pointer-events: none;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      color: var(--pva-text);
+    }
+
+    #pva-window.pva-open {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      pointer-events: all;
+    }
+
+    .pva-header {
+      background: #ffffff;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--pva-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .pva-header-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .pva-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--pva-accent), #818cf8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95rem;
+      position: relative;
+    }
+
+    .pva-avatar-online {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10px;
+      height: 10px;
+      background: #10b981;
+      border: 2px solid #fff;
+      border-radius: 50%;
+    }
+
+    .pva-title-box h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin: 0;
+      line-height: 1.2;
+      color: var(--pva-text);
+    }
+
+    .pva-title-box p {
+      font-size: 0.75rem;
+      color: var(--pva-text-muted);
+      margin: 0;
+    }
+
+    .pva-header-controls {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pva-icon-btn {
+      background: none;
+      border: none;
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--pva-text-muted);
+      transition: all 0.15s ease;
+    }
+
+    .pva-icon-btn:hover {
+      background: var(--pva-bg-subtle);
+      color: var(--pva-text);
+    }
+
+    .pva-icon-btn.active-control {
+      color: var(--pva-accent);
+      background: var(--pva-accent-light);
+    }
+
+    .pva-status-banner {
+      background: var(--pva-accent-light);
+      border-bottom: 1px solid var(--pva-accent-border);
+      padding: 8px 16px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--pva-accent);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .pva-status-banner.pva-hidden {
+      display: none;
+    }
+
+    .pva-status-banner.is-listening {
+      background: #fef2f2;
+      border-color: #fecaca;
+      color: #dc2626;
+    }
+
+    .pva-status-text {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pva-wave {
+      display: inline-flex;
+      align-items: center;
+      gap: 2px;
+      height: 14px;
+    }
+
+    .pva-wave span {
+      width: 3px;
+      height: 100%;
+      background-color: currentColor;
+      border-radius: 3px;
+      animation: pvaWaveAnim 1s ease-in-out infinite alternate;
+    }
+
+    .pva-wave span:nth-child(2) {
+      animation-delay: 0.2s;
+      height: 70%;
+    }
+
+    .pva-wave span:nth-child(3) {
+      animation-delay: 0.4s;
+      height: 100%;
+    }
+
+    .pva-wave span:nth-child(4) {
+      animation-delay: 0.1s;
+      height: 50%;
+    }
+
+    @keyframes pvaWaveAnim {
+      0% {
+        transform: scaleY(0.3);
+      }
+
+      100% {
+        transform: scaleY(1);
+      }
+    }
+
+    .pva-btn-stop-voice {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid currentColor;
+      border-radius: 9999px;
+      padding: 2px 10px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      color: inherit;
+    }
+
+    .pva-messages {
+      flex: 1;
+      padding: 16px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      background: var(--pva-bg-subtle);
+      scroll-behavior: smooth;
+    }
+
+    .pva-msg {
+      display: flex;
+      gap: 8px;
+      max-width: 85%;
+      word-break: break-word;
+    }
+
+    .pva-msg-user {
+      align-self: flex-end;
+      flex-direction: row-reverse;
+    }
+
+    .pva-msg-assistant {
+      align-self: flex-start;
+    }
+
+    .pva-bubble {
+      padding: 10px 14px;
+      border-radius: 14px;
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+
+    .pva-msg-user .pva-bubble {
+      background: var(--pva-accent);
+      color: #ffffff;
+      border-bottom-right-radius: 4px;
+    }
+
+    .pva-msg-assistant .pva-bubble {
+      background: #ffffff;
+      color: var(--pva-text);
+      border: 1px solid var(--pva-border);
+      border-bottom-left-radius: 4px;
+    }
+
+    .pva-suggestions {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .pva-chip {
+      background: #ffffff;
+      border: 1px solid var(--pva-accent-border);
+      color: var(--pva-accent);
+      border-radius: 9999px;
+      padding: 7px 12px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .pva-chip:hover {
+      background: var(--pva-accent-light);
+      border-color: var(--pva-accent);
+      transform: translateX(3px);
+    }
+
+    .pva-typing-indicator {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 12px 16px;
+    }
+
+    .pva-dot {
+      width: 7px;
+      height: 7px;
+      background: #94a3b8;
+      border-radius: 50%;
+      animation: pvaDotBounce 1.4s infinite ease-in-out both;
+    }
+
+    .pva-dot:nth-child(1) {
+      animation-delay: -0.32s;
+    }
+
+    .pva-dot:nth-child(2) {
+      animation-delay: -0.16s;
+    }
+
+    @keyframes pvaDotBounce {
+
+      0%,
+      80%,
+      100% {
+        transform: scale(0);
+      }
+
+      40% {
+        transform: scale(1);
+        background: var(--pva-accent);
+      }
+    }
+
+    .pva-error-toast {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #b91c1c;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    .pva-input-area {
+      background: #ffffff;
+      border-top: 1px solid var(--pva-border);
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .pva-input-wrapper {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .pva-text-input {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1px solid var(--pva-border);
+      border-radius: 9999px;
+      font-size: 0.9rem;
+      background: var(--pva-bg-subtle);
+      color: var(--pva-text);
+      outline: none;
+    }
+
+    .pva-text-input:focus {
+      border-color: var(--pva-accent);
+      background: #ffffff;
+      box-shadow: 0 0 0 3px var(--pva-accent-glow);
+    }
+
+    .pva-mic-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid var(--pva-accent-border);
+      background: var(--pva-accent-light);
+      color: var(--pva-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: all 0.2s ease;
+    }
+
+    .pva-mic-btn:hover {
+      background: var(--pva-accent);
+      color: #ffffff;
+      transform: scale(1.05);
+    }
+
+    .pva-mic-btn.is-active-mic {
+      background: #ef4444 !important;
+      color: #ffffff !important;
+      border-color: #ef4444 !important;
+      animation: pvaPulseMic 1.5s infinite;
+    }
+
+    @keyframes pvaPulseMic {
+      0% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+      }
+
+      70% {
+        box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+      }
+    }
+
+    .pva-send-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      background: var(--pva-accent);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: all 0.2s ease;
+    }
+
+    .pva-send-btn:hover:not(:disabled) {
+      background: var(--pva-accent-hover);
+      transform: scale(1.05);
+    }
+
+    .pva-send-btn:disabled,
+    .pva-mic-btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .pva-footer-note {
+      text-align: center;
+      font-size: 0.7rem;
+      color: #94a3b8;
+      padding: 4px 0 2px;
+      background: #ffffff;
+    }
+
+
+    @media (max-width: 480px) {
+      #pva-window {
+        width: 100vw;
+        max-width: 100vw;
+        height: calc(100vh - 80px);
+        height: calc(100dvh - 80px);
+        max-height: none;
+        bottom: 0;
+        right: 0;
+        border-radius: 20px 20px 0 0;
+      }
+
+      #pva-launcher {
+        bottom: 16px;
+        right: 16px;
+      }
+
+      #pva-launcher.pva-launcher-hidden {
+        display: none;
+      }
+
+      .pva-text-input {
+        font-size: 16px;
+      }
+    }
+  </style>
+
+  <!-- 3. WIDGET JAVASCRIPT -->
+  <script>
+    (function () {
+      // ⚙️ Set this to your deployed backend API URL (e.g., 'https://my-assistant-api.onrender.com/api/chat')
+      // If backend and portfolio are on the same domain, leave as '/api/chat'
+      const BACKEND_URL = 'https://aiassistand.netlify.app/.netlify/functions/chat';
+
+      let history = [];
+      let isMuted = false;
+      let isListening = false;
+      let isThinking = false;
+      let isSpeaking = false;
+      let recognition = null;
+
+      const win = document.getElementById('pva-window');
+      const messages = document.getElementById('pva-messages');
+      const input = document.getElementById('pva-text-input');
+      const sendBtn = document.getElementById('pva-send-btn');
+      const micBtn = document.getElementById('pva-mic-btn');
+      const muteBtn = document.getElementById('pva-mute-btn');
+      const volumeIcon = document.getElementById('pva-volume-icon');
+      const banner = document.getElementById('pva-banner');
+      const bannerLabel = document.getElementById('pva-banner-label');
+      const bannerAction = document.getElementById('pva-banner-action');
+
+      window.pvaToggle = function (force) {
+        const open = force !== undefined ? force : !win.classList.contains('pva-open');
+        document.getElementById('pva-launcher').classList.toggle('pva-launcher-hidden', open);
+        if (open) {
+          win.classList.add('pva-open');
+          input.focus();
+        } else {
+          win.classList.remove('pva-open');
           pvaStopListening();
-          let err = "Could not hear clearly. Please try again or type.";
-          if (e.error === 'not-allowed') err = "Microphone blocked. Please grant browser microphone permission.";
-          showError(err);
-        };
-        recognition.onend = () => pvaStopListening();
-      } catch (_) {
+          pvaStopVoice();
+        }
+      };
+
+      const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (SpeechRec) {
+        try {
+          recognition = new SpeechRec();
+          recognition.continuous = false;
+          recognition.interimResults = false;
+          recognition.lang = 'en-US';
+
+          recognition.onstart = () => {
+            isListening = true;
+            micBtn.classList.add('is-active-mic');
+            showBanner("Listening... Speak now", true, false);
+          };
+          recognition.onresult = (e) => {
+            const t = e.results[0][0].transcript;
+            if (t && t.trim()) {
+              input.value = t.trim();
+              pvaSendMessage(t.trim());
+            }
+          };
+          recognition.onerror = (e) => {
+            pvaStopListening();
+            let err = "Could not hear clearly. Please try again or type.";
+            if (e.error === 'not-allowed') err = "Microphone blocked. Please grant browser microphone permission.";
+            showError(err);
+          };
+          recognition.onend = () => pvaStopListening();
+        } catch (_) {
+          if (micBtn) micBtn.style.display = 'none';
+        }
+      } else {
         if (micBtn) micBtn.style.display = 'none';
       }
-    } else {
-      if (micBtn) micBtn.style.display = 'none';
-    }
 
-    window.pvaToggleVoice = function () {
-      if (!recognition) return showError("Voice recognition not supported in this browser.");
-      if (isListening) {
-        pvaStopListening();
-      } else {
-        pvaStopVoice();
-        try { recognition.start(); } catch (_) { pvaStopListening(); }
-      }
-    };
-
-    function pvaStopListening() {
-      isListening = false;
-      if (micBtn) micBtn.classList.remove('is-active-mic');
-      if (!isThinking && !isSpeaking) hideBanner();
-      if (recognition) { try { recognition.stop(); } catch (_) { } }
-    }
-
-    const synth = window.speechSynthesis;
-    // Mobile par pehle tap par awaaz "unlock" karta hai
-function unlockSpeech() {
-  if (!synth) return;
-  const u = new SpeechSynthesisUtterance(' ');
-  u.volume = 0;
-  synth.speak(u);
-}
-['click', 'touchend'].forEach(ev =>
-  document.addEventListener(ev, unlockSpeech, { once: true })
-);
-    function speak(text) {
-      if (!synth || isMuted || !text) return;
-      synth.cancel();
-if (synth.paused) synth.resume();
-      const clean = text.replace(/[*#_~`>]/g, '').trim();
-      if (!clean) return;
-
-      const utt = new SpeechSynthesisUtterance(forSpeech(clean));      utt.rate = 1.0;
-      utt.pitch = 1.0;
-      utt.lang = 'en-US';
-      const voices = synth.getVoices();
-      if (voices.length > 0) {
-        const found = voices.find(v => (v.name.includes('Google') || v.name.includes('Natural')) && v.lang.startsWith('en')) || voices.find(v => v.lang.startsWith('en'));
-        if (found) utt.voice = found;
-      }
-      utt.onstart = () => { isSpeaking = true; showBanner("Speaking answer...", false, true); };
-      utt.onend = () => { isSpeaking = false; if (!isListening && !isThinking) hideBanner(); };
-      utt.onerror = () => { isSpeaking = false; if (!isListening && !isThinking) hideBanner(); };
-      synth.speak(utt);
-    }
-
-    window.pvaStopVoice = function () {
-      if (synth) synth.cancel();
-      isSpeaking = false;
-      if (!isListening && !isThinking) hideBanner();
-    };
-
-    window.pvaToggleMute = function () {
-      isMuted = !isMuted;
-      if (isMuted) {
-        pvaStopVoice();
-        muteBtn.classList.add('active-control');
-        volumeIcon.innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>';
-      } else {
-        muteBtn.classList.remove('active-control');
-        volumeIcon.innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>';
-      }
-    };
-
-    // Bolte waqt link aur email hata deta hai
-    function forSpeech(text) {
-      return text
-        .replace(/https?:\/\/\S+/gi, "the link shown on the screen")
-        .replace(/[\w.+-]+@[\w-]+\.[\w.]+/g, "the email shown on the screen")
-        .replace(/\s+/g, " ");
-    }
-
-    // Screen par link ko clickable banata hai
-    function linkify(text) {
-      const safe = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-      return safe.replace(
-        /(https?:\/\/[^\s]*[^\s.,!?])/g,
-        '<a href="$1" target="_blank" rel="noopener">$1</a>'
-      );
-    }
-
-    function showBanner(text, listenMode, showStop) {
-      bannerLabel.textContent = text;
-      banner.classList.remove('pva-hidden');
-      if (listenMode) banner.classList.add('is-listening'); else banner.classList.remove('is-listening');
-      bannerAction.style.display = showStop ? 'inline-block' : 'none';
-    }
-
-    function hideBanner() {
-      banner.classList.add('pva-hidden');
-      banner.classList.remove('is-listening');
-      bannerAction.style.display = 'none';
-    }
-
-    function showError(msg) {
-      const d = document.createElement('div');
-      d.className = 'pva-error-toast';
-      d.textContent = msg;
-      messages.appendChild(d);
-      messages.scrollTop = messages.scrollHeight;
-    }
-
-    window.pvaSubmitText = function () {
-      const val = input.value.trim();
-      if (!val || isThinking) return;
-      pvaSendMessage(val);
-    };
-
-    window.pvaAskSuggestion = function (q) {
-      const s = document.getElementById('pva-suggestions-box');
-      if (s) s.style.display = 'none';
-      pvaSendMessage(q);
-    };
-
-    async function pvaSendMessage(question) {
-      if (!question || isThinking) return;
-      pvaStopListening();
-      pvaStopVoice();
-      input.value = '';
-      setDisabled(true);
-
-      addBubble('user', question);
-      isThinking = true;
-      showBanner("Thinking...", false, false);
-      const typing = addTyping();
-
-      try {
-        const res = await fetch(BACKEND_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ message: question, history: history })
-        });
-        const data = await res.json();
-        typing.remove();
-
-        if (res.ok && data.reply) {
-          addBubble('assistant', data.reply);
-          history.push({ role: 'user', content: question });
-          history.push({ role: 'assistant', content: data.reply });
-          if (history.length > 6) history = history.slice(-6);
-          speak(data.reply);
+      window.pvaToggleVoice = function () {
+        if (!recognition) return showError("Voice recognition not supported in this browser.");
+        if (isListening) {
+          pvaStopListening();
         } else {
-          const err = data.reply || "Could not get an answer right now.";
-          addBubble('assistant', err);
-          speak(err);
+          pvaStopVoice();
+          try { recognition.start(); } catch (_) { pvaStopListening(); }
         }
-      } catch (err) {
-        typing.remove();
-        addBubble('assistant', "Cannot reach server. Please check your connection.");
-      } finally {
-        isThinking = false;
-        setDisabled(false);
-        if (!isSpeaking) hideBanner();
-        input.focus();
+      };
+
+      function pvaStopListening() {
+        isListening = false;
+        if (micBtn) micBtn.classList.remove('is-active-mic');
+        if (!isThinking && !isSpeaking) hideBanner();
+        if (recognition) { try { recognition.stop(); } catch (_) { } }
       }
-    }
 
-    function addBubble(role, txt) {
-      const msg = document.createElement('div');
-      msg.className = 'pva-msg pva-msg-' + role;
-      const b = document.createElement('div');
-      b.className = 'pva-bubble';
-      b.innerHTML = linkify(txt);
-      msg.appendChild(b);
-      messages.appendChild(msg);
-      messages.scrollTop = messages.scrollHeight;
-    }
-
-    function addTyping() {
-      const d = document.createElement('div');
-      d.className = 'pva-msg pva-msg-assistant';
-      d.innerHTML = '<div class="pva-bubble pva-typing-indicator"><span class="pva-dot"></span><span class="pva-dot"></span><span class="pva-dot"></span></div>';
-      messages.appendChild(d);
-      messages.scrollTop = messages.scrollHeight;
-      return d;
-    }
-
-    function setDisabled(d) {
-      input.disabled = d;
-      sendBtn.disabled = d;
-      if (micBtn) micBtn.disabled = d;
-    }
-
-    input.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        pvaSubmitText();
+      const synth = window.speechSynthesis;
+      // Mobile par pehle tap par awaaz "unlock" karta hai
+      function unlockSpeech() {
+        if (!synth) return;
+        const u = new SpeechSynthesisUtterance(' ');
+        u.volume = 0;
+        synth.speak(u);
       }
-    });
+      ['click', 'touchend'].forEach(ev =>
+        document.addEventListener(ev, unlockSpeech, { once: true })
+      );
+      function speak(text) {
+        if (!synth || isMuted || !text) return;
+        synth.cancel();
+        if (synth.paused) synth.resume();
+        const clean = text.replace(/[*#_~`>]/g, '').trim();
+        if (!clean) return;
 
-    if (synth && synth.onvoiceschanged !== undefined) {
-      synth.onvoiceschanged = () => synth.getVoices();
-    }
-  })();
-</script>
+        const utt = new SpeechSynthesisUtterance(forSpeech(clean)); utt.rate = 1.0;
+        utt.pitch = 1.0;
+        utt.lang = 'en-US';
+        const voices = synth.getVoices();
+        if (voices.length > 0) {
+          const found = voices.find(v => (v.name.includes('Google') || v.name.includes('Natural')) && v.lang.startsWith('en')) || voices.find(v => v.lang.startsWith('en'));
+          if (found) utt.voice = found;
+        }
+        utt.onstart = () => { isSpeaking = true; showBanner("Speaking answer...", false, true); };
+        utt.onend = () => { isSpeaking = false; if (!isListening && !isThinking) hideBanner(); };
+        utt.onerror = () => { isSpeaking = false; if (!isListening && !isThinking) hideBanner(); };
+        synth.speak(utt);
+      }
+
+      window.pvaStopVoice = function () {
+        if (synth) synth.cancel();
+        isSpeaking = false;
+        if (!isListening && !isThinking) hideBanner();
+      };
+
+      window.pvaToggleMute = function () {
+        isMuted = !isMuted;
+        if (isMuted) {
+          pvaStopVoice();
+          muteBtn.classList.add('active-control');
+          volumeIcon.innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>';
+        } else {
+          muteBtn.classList.remove('active-control');
+          volumeIcon.innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>';
+        }
+      };
+
+      // Bolte waqt link aur email hata deta hai
+      function forSpeech(text) {
+        return text
+          .replace(/https?:\/\/\S+/gi, "the link shown on the screen")
+          .replace(/[\w.+-]+@[\w-]+\.[\w.]+/g, "the email shown on the screen")
+          .replace(/\s+/g, " ");
+      }
+
+      // Screen par link ko clickable banata hai
+      function linkify(text) {
+        const safe = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        return safe.replace(
+          /(https?:\/\/[^\s]*[^\s.,!?])/g,
+          '<a href="$1" target="_blank" rel="noopener">$1</a>'
+        );
+      }
+
+      function showBanner(text, listenMode, showStop) {
+        bannerLabel.textContent = text;
+        banner.classList.remove('pva-hidden');
+        if (listenMode) banner.classList.add('is-listening'); else banner.classList.remove('is-listening');
+        bannerAction.style.display = showStop ? 'inline-block' : 'none';
+      }
+
+      function hideBanner() {
+        banner.classList.add('pva-hidden');
+        banner.classList.remove('is-listening');
+        bannerAction.style.display = 'none';
+      }
+
+      function showError(msg) {
+        const d = document.createElement('div');
+        d.className = 'pva-error-toast';
+        d.textContent = msg;
+        messages.appendChild(d);
+        messages.scrollTop = messages.scrollHeight;
+      }
+
+      window.pvaSubmitText = function () {
+        const val = input.value.trim();
+        if (!val || isThinking) return;
+        pvaSendMessage(val);
+      };
+
+      window.pvaAskSuggestion = function (q) {
+        const s = document.getElementById('pva-suggestions-box');
+        if (s) s.style.display = 'none';
+        pvaSendMessage(q);
+      };
+
+      async function pvaSendMessage(question) {
+        if (!question || isThinking) return;
+        pvaStopListening();
+        pvaStopVoice();
+        input.value = '';
+        setDisabled(true);
+
+        addBubble('user', question);
+        isThinking = true;
+        showBanner("Thinking...", false, false);
+        const typing = addTyping();
+
+        try {
+          const res = await fetch(BACKEND_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: question, history: history })
+          });
+          const data = await res.json();
+          typing.remove();
+
+          if (res.ok && data.reply) {
+            addBubble('assistant', data.reply);
+            history.push({ role: 'user', content: question });
+            history.push({ role: 'assistant', content: data.reply });
+            if (history.length > 6) history = history.slice(-6);
+            speak(data.reply);
+          } else {
+            const err = data.reply || "Could not get an answer right now.";
+            addBubble('assistant', err);
+            speak(err);
+          }
+        } catch (err) {
+          typing.remove();
+          addBubble('assistant', "Cannot reach server. Please check your connection.");
+        } finally {
+          isThinking = false;
+          setDisabled(false);
+          if (!isSpeaking) hideBanner();
+          input.focus();
+        }
+      }
+
+      function addBubble(role, txt) {
+        const msg = document.createElement('div');
+        msg.className = 'pva-msg pva-msg-' + role;
+        const b = document.createElement('div');
+        b.className = 'pva-bubble';
+        b.innerHTML = linkify(txt);
+        msg.appendChild(b);
+        messages.appendChild(msg);
+        messages.scrollTop = messages.scrollHeight;
+      }
+
+      function addTyping() {
+        const d = document.createElement('div');
+        d.className = 'pva-msg pva-msg-assistant';
+        d.innerHTML = '<div class="pva-bubble pva-typing-indicator"><span class="pva-dot"></span><span class="pva-dot"></span><span class="pva-dot"></span></div>';
+        messages.appendChild(d);
+        messages.scrollTop = messages.scrollHeight;
+        return d;
+      }
+
+      function setDisabled(d) {
+        input.disabled = d;
+        sendBtn.disabled = d;
+        if (micBtn) micBtn.disabled = d;
+      }
+
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          pvaSubmitText();
+        }
+      });
+
+      if (synth && synth.onvoiceschanged !== undefined) {
+        synth.onvoiceschanged = () => synth.getVoices();
+      }
+    })();
+  </script>
 
 </body>
 
